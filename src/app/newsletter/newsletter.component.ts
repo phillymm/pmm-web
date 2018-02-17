@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-newsletter',
-  templateUrl: './newsletter.component.html',
-  styleUrls: ['./newsletter.component.css']
+  templateUrl: './newsletter.component.html'
 })
 export class NewsletterComponent implements OnInit {
 

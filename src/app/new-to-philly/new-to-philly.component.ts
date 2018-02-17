@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-new-to-philly',
-  templateUrl: './new-to-philly.component.html',
-  styleUrls: ['./new-to-philly.component.css']
+  templateUrl: './new-to-philly.component.html'
 })
 export class NewToPhillyComponent implements OnInit {
 

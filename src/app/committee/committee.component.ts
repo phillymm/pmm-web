@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-committee',
-  templateUrl: './committee.component.html',
-  styleUrls: ['./committee.component.css']
+  templateUrl: './committee.component.html'
 })
 export class CommitteeComponent implements OnInit {
 
