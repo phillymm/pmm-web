@@ -1,0 +1,48 @@
+<section style="display:flex; flex-direction:column;width:100%; height:100%; position:absolute;">
+  <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsPmm" aria-controls="navbarsPmm" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div style="display:inline-flex;">
+        <img style="vertical-align:middle;" src="./../assets/images/a95530a74e018541f02e7bf6225cfcb4.gif" 
+        height="50" width="50">  
+        <div style="margin-left:10px;">
+            <a class="navbar-brand" style="font-size:1rem;" href="#">फिलाडेल्फिया मराठी मंडळ<br>Philadelphia Marathi Mandal</a>  
+        </div>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarsPmm">
+      <ul class="navbar-nav mr-auto" style="vertical-align:top;">
+        <li class="nav-item active">
+          <a class="nav-link" [routerLink]="['/home']">Home 
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/about']">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/committee']">Committee</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/faq']">FAQ</a>        
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/membership']">Membership</a>        
+        </li>
+        <li class="nav-item">
+          <a  class="nav-link" [routerLink]="['/new-to-philly']">New to Philly</a>       
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section style="padding-top:2.5rem;">
+    <router-outlet></router-outlet>  
+  </section>
+
+  <hr>
+  <footer class="bd-footer text-muted">
+    <div class="container">
+      <p>&copy; 2018. Marathi Mandal of Philadelphia. All rights reserved.</p>    
+    </div>
+  </footer>
+</section>

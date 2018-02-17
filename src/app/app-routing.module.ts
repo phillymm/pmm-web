@@ -1,0 +1,62 @@
+import { PhotoVideoComponent } from './photo-video/photo-video.component';
+import { HomeComponent } from './home/home.component';
+import { NgModule } from '@angular/core';
+import { NoPreloading, PreloadAllModules, PreloadingStrategy, RouterModule, Routes } from '@angular/router';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { MembershipComponent } from './membership/membership.component';
+import { AboutComponent } from './about/about.component';
+import { NewsletterComponent } from './newsletter/newsletter.component';
+import { NewToPhillyComponent } from './new-to-philly/new-to-philly.component';
+import { CommitteeComponent } from './committee/committee.component';
+import { FaqComponent } from './faq/faq.component';
+
+export const routes: Routes = [
+    {
+      path: '',
+      redirectTo: '/home',
+      pathMatch: 'full'
+    },
+    {
+      path: 'home',
+      component: HomeComponent
+    },
+    {
+      path: 'about',
+      component: AboutComponent
+    },
+    {
+      path: 'committee',
+      component: CommitteeComponent
+    },
+    {
+      path: 'membership',
+      component: MembershipComponent
+    },
+    {
+      path: 'newsletter',
+      component: NewsletterComponent
+    },
+    {
+      path: 'new-to-philly',
+      component: NewToPhillyComponent
+    },
+    {
+      path: 'photo-video',
+      component: PhotoVideoComponent
+    },
+    {
+      path: 'faq',
+      component: FaqComponent
+    },
+    { path: '**', component: PageNotFoundComponent }
+];
+
+@NgModule({
+  imports: [
+    RouterModule.forRoot(routes)
+  ],
+  exports: [RouterModule],
+  providers: [
+  ]
+})
+export class AppRoutingModule { }
