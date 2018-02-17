@@ -1,0 +1,91 @@
+{
+  "adhikari" : [
+    {
+        "role": "अध्यक्ष",
+        "person": "संगीता राजे-पालकर ",
+        "email": "president@phillymm.org"
+    },
+    {
+        "role": "उपाध्यक्ष",
+        "person": "विक्रांत कांबळे",
+        "email": "v.p@phillymm.org"
+    },
+    {
+        "role": "सचिव",
+        "person": "राहुल पळणीटकर",
+        "email": "Secy@phillymm.org"
+    },
+    {
+        "role": "सहसचिव",
+        "person": "स्मृती फाटक",
+        "email": ""
+    },
+    {
+        "role": "खजिनदार",
+        "person": "विलास सोदये",
+        "email": "treasurer@phillymm.org"
+    },
+    {
+        "role": "सहकारी खजिनदार",
+        "person": "संजय वळंजू",
+        "email": ""
+    },
+    {
+        "role": "संकेत स्थळ व्यवस्थापक",
+        "person": "मनिष कुऱ्हेकर",
+        "email": ""
+    },
+    {
+        "role": "बी एम एम संपर्क",
+        "person": "अनिरुद्ध राईलकर",
+        "email": ""
+    }
+  ],
+  "sabhasad" : [
+    {
+        "person":"विल्फ्रेड डिसूझा"
+    },
+    {
+        "person": "तेजस सिरसाट"
+    },
+    {
+        "person": "गौतमी जोगळेकर"
+    },
+    {
+        "person": "अर्पणा दाते"
+    },
+    {
+        "person": "अनुजा पळसुले"
+    },
+    {
+        "person": "वैशाली जोगळेकर"
+    },
+    {
+        "person": "ओजस्विनी जोग"
+    },
+    {
+        "person": "स्वाती वाटवे"
+    },
+    {
+        "person": "पल्लवी नाडकर्णी"
+    }
+],
+    "trustees" : [
+        {
+         "person":"अच्युत रत्नपारखी"   
+        },
+        {
+         "person":"मंदार जोगळेकर"   
+        },
+        {
+         "person":"केदार गिध"   
+        },
+        {
+         "person":"विवेक इनामदार"   
+        },
+        {
+         "person":"आशिष नाडकर्णी"   
+        }
+    ],
+    "trusteeEmail": "trustees@phillymm.org"
+}

@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './new-to-philly.component.html'
 })
 export class NewToPhillyComponent implements OnInit {
-
+  yourName = '';
   constructor() { }
 
   ngOnInit() {

@@ -14,6 +14,7 @@ import { FaqComponent } from './faq/faq.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { PmmDataAccessService } from './services/pmm-data-access.service';
 import { PhotoVideoComponent } from './photo-video/photo-video.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { PhotoVideoComponent } from './photo-video/photo-video.component';
     CommitteeComponent,
     FaqComponent,
     PageNotFoundComponent,
-    PhotoVideoComponent
+    PhotoVideoComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

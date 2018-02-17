@@ -5,4 +5,7 @@ body {
     padding-top: 2rem;
     pointer-events: all;
 }
-  
+
+.bg-inverse {
+    background-color: #F07A2A !important;
+}
