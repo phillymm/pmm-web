@@ -5,10 +5,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --base-href /pmm-web/",
+    "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "deploy": "gh-pages -d dist",
+    "deploy": "ng build --prod --base-href /pmm-web/ && gh-pages -d dist",
     "e2e": "ng e2e"
   },
   "private": true,
