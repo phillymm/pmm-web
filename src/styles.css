@@ -9,3 +9,54 @@ body {
 .bg-inverse {
     background-color: #F07A2A !important;
 }
+
+.navbar-inverse .navbar-toggler {
+    border-color: #fff  !important;
+}
+
+.navbar-toggler-icon {
+    width: 1rem !important;
+}
+
+.nav-link {
+    padding:0px !important;
+}
+
+.nav-item {
+    font-size: 14px;
+    text-decoration: none;
+    padding: 5px 5px;
+    color: #fff;
+    height: 120px;
+}
+
+.nav-item > a {
+    background: #f38647;
+    color: #FFF;
+}
+
+@media (min-width: 576px) {
+    .jumbotron {
+        padding-top:80px !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .nav-item {
+        height: 25px;
+        padding:0px !important;
+    }
+
+    .jumbotron {
+        padding-top:60px !important;
+    }
+}
+
+.nav-bar {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+}
