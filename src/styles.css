@@ -25,31 +25,60 @@ body {
 .nav-item {
     font-size: 14px;
     text-decoration: none;
-    padding: 5px 5px;
     color: #fff;
-    height: 120px;
+    padding:1px !important;
+    font-size:17px;
+    font-family:Calibri, Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;	
 }
 
 .nav-item > a {
     background: #f38647;
-    color: #FFF;
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+    padding:10px !important;
+    line-height: 20px;
+    border-radius:4px;
+    background-image: -webkit-gradient(
+    linear,
+	left top,
+	left bottom,
+	color-stop(0, #f38647),
+	color-stop(1, #f38647)
+    );
+}
+
+.navbar {
+    padding-top: 1px !important;
+}
+
+.navbar-nav a:hover {
+    background: #6f3e37;
+}
+
+.navbar-inverse .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.85);
 }
 
 @media (min-width: 576px) {
-    .jumbotron {
+    .display-controller {
         padding-top:80px !important;
+    }    
+}
+
+
+@media (min-width: 992px) {
+    .nav-item {
+        height: 120px !important;      
     }
 }
 
 @media (max-width: 500px) {
-    .nav-item {
-        height: 25px;
-        padding:0px !important;
+    .display-controller {
+        padding-top:70px !important;
     }
+}
 
-    .jumbotron {
-        padding-top:60px !important;
-    }
+.page {
+    margin-top: 35px;
 }
 
 .nav-bar {
@@ -60,3 +89,5 @@ body {
     text-align: center;
     width: 100%;
 }
+
+
