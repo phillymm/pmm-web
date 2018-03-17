@@ -21,6 +21,7 @@
       "styles": [
         "assets/css/bootstrap.css",
         "assets/css/jumbotron.css",
+        "assets/css/font-awesome.min.css",
         "styles.css"
       ],
       "scripts": [
