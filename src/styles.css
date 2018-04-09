@@ -126,3 +126,11 @@ ul.social li a:after {
     border-right: solid 20px transparent;
 }
 
+body { font-size: small; color: #300; font-size: 12px; margin: 0; 
+    display: block; font-family: 'Lato', sans-serif, Arial, Helvetica, Verdana; 
+}
+
+div { margin: auto; }
+a { color: #3b5998; text-decoration: none; }
+a:visited { color: #3b5998; }
+a:hover, a:active { color: #111100; border: #111100; text-decoration: underline; }
