@@ -4,6 +4,9 @@
 body {
     padding-top: 2rem;
     pointer-events: all;
+    background-size: 10%;
+    background-image: url('assets/images/pmm-border.png');
+    background-repeat: repeat-y;
 }
 
 .bg-inverse {
