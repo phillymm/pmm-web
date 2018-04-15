@@ -72,7 +72,7 @@ body {
 
 @media (max-width: 500px) {
     .display-controller {
-        padding-top:130px !important;
+        padding-top:160px !important;
     }
 }
 
@@ -126,17 +126,10 @@ ul.social li a:after {
 }
 
 body { 
-    font-size: small; color: #300; font-size: 12px; margin: 0; 
-    background: #B47BFA;
-    background-image:url('assets/images/Pmm_V.jpg');
-    background-size: 100% 100%;
-    background-repeat:no-repeat;
-    background-position:center;
-    /*background-repeat:repeat-y; no-repeat;*/
-    background-attachment: fixed;
+    font-size: large; color: #300; font-size: 12px; margin: 0; 
     display: block; font-family: 'Lato', sans-serif, Arial, Helvetica, Verdana; 
 }
-    
+
 div { margin: auto; }
 a { color: #3b5998; text-decoration: none; }
 a:visited { color: #3b5998; }
