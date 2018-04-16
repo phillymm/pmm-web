@@ -9,6 +9,13 @@ body {
     background-repeat: repeat-y;
 }
 
+.pmm-jumbotron {
+    background-color: #eceeef;
+    border-radius: 0.3rem;
+    padding: 10px;
+    margin-left: 5px;
+}
+
 .bg-inverse {
     background-color: #F07A2A !important;
 }
