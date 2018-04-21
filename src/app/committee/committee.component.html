@@ -11,6 +11,9 @@
                 <span *ngIf="cm.role" class="col-md-4 header">
                         <b>{{cm.role}}:</b> {{cm.person}}
                 </span>
+                <span *ngIf="!cm.role" class="col-md-4 header">
+                        {{cm.person}}
+                </span>
                 <span  class="col-md-4 header">
                         {{cm.email}}
                 </span> 
