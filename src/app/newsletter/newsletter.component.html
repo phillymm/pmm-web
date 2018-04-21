@@ -1,8 +1,22 @@
 <section class="container">
-  <div >
+  <div class="col-md-12">
     <h2>NEWSLETTER / वार्तापत्र</h2>
     <p>पाककला , क्रीडा , प्रवास वर्णन,  कविता , मराठी साहित्य ,  आरोग्य विषयक विशेष माहिती,  आपल्या चिमुकल्या आणि  किशोरवयीन  मुलांसाठी स्वतंत्र  विभाग आणि बरेच काही..... 
       Recipes, Travelling  experiences, Poems,  Marathi literature articles  written by our own PMM  members. Separate section for our kids  and teens, Latest Issue of Newsletter... </p>
   </div>
 
+    <div *ngIf="newsletter && newsletter.length > 0">
+        <div *ngFor="let c of newsletter" class="pmm-jumbotron" style="margin-bottom: 15px;">
+            <div class="row">
+                <span class="col-md-8" style="font-weight: bold; font-size:large;">
+                    {{c.Title}}
+                </span>
+            </div>
+            <div class="row" *ngFor="let ni of c.Items"> 
+                <span class="col-md-8" style="font-weight: bold; font-size:large;">
+                    <a [href]="ni.Url" target="_blank">{{ni.Title}}</a>
+                </span>
+            </div> 
+        </div>
+    </div>
 </section>

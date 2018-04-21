@@ -1,4 +1,23 @@
 <section class="page container">
-
-    
+    <div *ngIf="committee && committee.length > 0">
+        <div *ngFor="let c of committee" class="pmm-jumbotron" style="margin-bottom: 15px;">
+            <div class="row">
+                <span class="col-md-8" style="font-weight: bold; font-size:large;">
+                    {{c.Title}}
+                    <span *ngIf="c.Email">({{c.Email}})</span>
+                </span>
+            </div>
+            <div class="row" *ngFor="let cm of c.Members">   
+                <span *ngIf="cm.role" class="col-md-4 header">
+                        {{cm.role}}
+                </span>
+                <span  class="col-md-4 header">
+                        {{cm.person}}
+                </span>
+                <span  class="col-md-4 header">
+                        {{cm.email}}
+                </span> 
+            </div> 
+        </div>
+      </div>
 </section>

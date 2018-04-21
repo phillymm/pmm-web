@@ -1,0 +1,54 @@
+import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs/Observable';
+import 'rxjs/add/operator/catch';
+import 'rxjs/add/operator/finally';
+import 'rxjs/add/operator/map';
+import { Http, Response } from '@angular/http';
+import { environment } from '../../environments/environment';
+import { Committee } from './models/committee';
+import { Artifact } from './models/artifact';
+
+@Injectable()
+export class GoogledriveService {
+  // ideally need an api that can explore the shared folders.
+  constructor(private http: Http) { }
+
+  getCommittee(): Observable<Committee[]> {
+    return this.http
+      .get('../../assets/data/committee.json')
+      .map(res =>  this.extractData<Committee[]>(res))
+      .catch(this.catchBadResponse)
+      .finally(() => {});
+  }
+
+  getNewsletters(): Observable<Artifact[]> {
+    return this.http
+      .get('../../assets/data/newsletters.json')
+      .map(res =>  this.extractData<Artifact[]>(res))
+      .catch(this.catchBadResponse)
+      .finally(() => {});
+  }
+
+  getPhotos(): Observable<Artifact[]> {
+    return this.http
+      .get('../../assets/data/photos.json')
+      .map(res =>  this.extractData<Artifact[]>(res))
+      .catch(this.catchBadResponse)
+      .finally(() => {});
+  }
+
+  catchBadResponse: (errorResponse: any) => Observable<any> = (errorResponse: any) => {
+    return Observable.throw(errorResponse);
+  }
+
+  public extractData<T> (res: Response) {
+    if (res.status < 200 || res.status >= 300) {
+        // handle errors TBD
+        return Observable.throw('Error Processing data.');
+    } else {
+        const body = res.json ? res.json() : null;
+        // return <T>(body && body.data || {});
+        return <T>(body || {});
+    }
+  }
+}

@@ -12,7 +12,7 @@ import { NewToPhillyComponent } from './new-to-philly/new-to-philly.component';
 import { CommitteeComponent } from './committee/committee.component';
 import { FaqComponent } from './faq/faq.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { PmmDataAccessService } from './services/pmm-data-access.service';
+import { GoogledriveService } from './services/googledrive.service';
 import { PhotoVideoComponent } from './photo-video/photo-video.component';
 import { HeaderComponent } from './header/header.component';
 
@@ -38,7 +38,7 @@ import { HeaderComponent } from './header/header.component';
     AppRoutingModule
   ],
   providers: [
-    PmmDataAccessService
+    GoogledriveService
   ],
   bootstrap: [AppComponent]
 })
