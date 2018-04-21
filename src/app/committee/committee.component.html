@@ -9,10 +9,7 @@
             </div>
             <div class="row" *ngFor="let cm of c.Members">   
                 <span *ngIf="cm.role" class="col-md-4 header">
-                        {{cm.role}}
-                </span>
-                <span  class="col-md-4 header">
-                        {{cm.person}}
+                        {{cm.role}}: {{cm.person}}
                 </span>
                 <span  class="col-md-4 header">
                         {{cm.email}}

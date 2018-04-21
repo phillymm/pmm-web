@@ -15,7 +15,7 @@ export class GoogledriveService {
 
   getCommittee(): Observable<Committee[]> {
     return this.http
-      .get('../../assets/data/committee.json')
+      .get('assets/data/committee.json')
       .map(res =>  this.extractData<Committee[]>(res))
       .catch(this.catchBadResponse)
       .finally(() => {});
@@ -23,7 +23,7 @@ export class GoogledriveService {
 
   getNewsletters(): Observable<Artifact[]> {
     return this.http
-      .get('../../assets/data/newsletters.json')
+      .get('assets/data/newsletters.json')
       .map(res =>  this.extractData<Artifact[]>(res))
       .catch(this.catchBadResponse)
       .finally(() => {});
@@ -31,7 +31,7 @@ export class GoogledriveService {
 
   getPhotos(): Observable<Artifact[]> {
     return this.http
-      .get('../../assets/data/photos.json')
+      .get('assets/data/photos.json')
       .map(res =>  this.extractData<Artifact[]>(res))
       .catch(this.catchBadResponse)
       .finally(() => {});
