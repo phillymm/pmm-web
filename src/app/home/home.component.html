@@ -34,7 +34,7 @@
               <span>{{ea.Time}}</span>
               <span>{{ea.Event}}</span>
             </div>
-            <h6 style="margin-top:5px;"><a [href]="e.RSVPLink">RSVP Link</a></h6>
+            <h6 *ngIf="e.RSVPLink" style="margin-top:5px;"><a [href]="e.RSVPLink">RSVP Link</a></h6>
             <h6>Member Fee: {{e.MemberFee}}</h6>
             <h6>Non-Member Fee: {{e.NonMemberFee}} {{e.FeeLink}}</h6>
             <h6 *ngIf="e.FeeLink"><a [href]="e.FeeLink">Ticket Link</a></h6>            
