@@ -1,31 +1,5 @@
 <div class="page container form-horizontal" >    
-    <form class="form-horizontal"
-            novalidate
-            #newInPhiliForm="ngForm">
-    <fieldset>
-        <div class="form-group col-sm-12">
-            <div class="col-sm-12">
-                    WELCOME to Philadelphia! 
-            </div>
-            <div class="col-sm-12">
-                Please fill in your details below. Someone from PMM will contact you within 24 hours.                     
-            </div>
-        </div>
-
-        <div class="col-md-12">  
-            <label class="col-sm-2">Your Name:</label>
-            <div class="col-sm-4"
-                [ngClass]="{'has-error': (YourNameVar.touched || YourNameVar.dirty) && !YourNameVar.valid }">
-                <input type='text' required placeholder="First Name (required)" 
-                    [(ngModel)]= "yourName"  name="yourName" #YourNameVar="ngModel" />
-                <span class="help-block" *ngIf="(YourNameVar.touched || YourNameVar.dirty) && YourNameVar.errors">
-                    <span *ngIf="YourNameVar.errors">
-                        Please enter your name.
-                    </span>
-                </span>
-            </div>             
-        </div>    
-
-    </fieldset>
-  </form>
+    <div class="col-sm-12">
+            WELCOME to Philadelphia! 
+    </div>
 </div>    
