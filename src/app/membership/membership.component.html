@@ -19,49 +19,33 @@
         Preference for performing at the popular Talent Show
     </div>    
 
-    <div id="wsb-element-a0c5fca3-9717-441b-a834-db5cfae7d095" class="wsb-element-htmlsnippet" data-type="element">
-    <div class="wsb-htmlsnippet-element"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-    
-    <input type="hidden" name="cmd" value="_s-xclick">
-    
-    <input type="hidden" name="hosted_button_id" value="W4DY23YGRNYW6">
-    
-    <table>
-    
-    <tbody><tr><td><input type="hidden" name="on0" value="Membership Type">Membership Type</td></tr><tr><td><select name="os0">
-    
-        <option value="Family">Family $150.00 USD
-    
-        </option><option value="Single">Single $70.00 USD
-    
-        </option><option value="Senior - Couple">Senior - Couple $80.00 USD
-    
-        </option><option value="Senior - Single">Senior - Single $40.00 USD
-    
-        </option><option value="Student with family">Student with family $100.00 USD
-    
-        </option><option value="Student  - Single">Student  - Single $50.00 USD
-    
-        </option><option value="Visiting parents (couple)">Visiting parents (couple) $50.00 USD
-    
-        </option><option value="Visiting parent (single)">Visiting parent (single) $25.00 USD
-    
-    </option></select> </td></tr>
-    
-    </tbody></table>
-    
-    <input type="hidden" name="currency_code" value="USD">
-    
-    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-    
-    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-    
-    </form>
-    </div>
-    </div>
+    <!-- Paypal integration for memebrship-->
+    <div class="wsb-htmlsnippet-element" style="margin: 15px 0 15px 0;">
+        <form ngNoForm action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="W4DY23YGRNYW6">
+            <table style="margin-bottom:10px;">
+                <tr><td><input type="hidden" name="on0" value="Membership Type">Membership Type</td></tr><tr><td><select name="os0">
+                    <option value="Family">Family $150.00 USD
+                    <option value="Single">Single $70.00 USD
+                    <option value="Senior - Couple">Senior - Couple $80.00 USD
+                    <option value="Senior - Single">Senior - Single $40.00 USD
+                    <option value="Student with family">Student with family $100.00 USD
+                    <option value="Student  - Single">Student  - Single $50.00 USD
+                    <option value="Visiting parents (couple)">Visiting parents (couple) $50.00 USD
+                    <option value="Visiting parent (single)">Visiting parent (single) $25.00 USD
+                </select> </td></tr>
+            </table>
+
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+    </div>        
+    <!-- Paypal integration for memebrship-->
 
     <div>
-    <table align="center" border="1" cellspacing="1" cellpadding="1">
+    <table border="1" cellspacing="1" cellpadding="1">
         <tbody>
             <tr>
                 <td style="background-color: rgb(102, 255, 255);">

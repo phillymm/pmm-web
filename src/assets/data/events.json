@@ -1,0 +1,40 @@
+[
+    {
+        "Title": "PMM Talent Show",
+        "RSVPLink": "https://docs.google.com/forms/d/e/1FAIpQLSdo8a1p_NMHMXVCpahIrzQkEfjaFTlYlTx_cQB9uhBTDl4QvQ/viewform",        
+        "FBLink": "https://docs.google.com/forms/d/e/1FAIpQLSdo8a1p_NMHMXVCpahIrzQkEfjaFTlYlTx_cQB9uhBTDl4QvQ/viewform",        
+        "MemberFee": "Free for Members",
+        "NonMemberFee": "$20 for Non-members (Kids 5 and under free)",
+        "FeeLink": "",
+        "Date" : "April 28, 2018 (Sat)",
+        "Agenda": [
+            {
+                "Time": "3PM - 3.45 PM",
+                "Event" : "Arrival, Registration/Check-in"
+            },
+            {
+                "Time": "4PM - 7.30 PM",
+                "Event" : "Talent Show"
+            },
+            {
+                "Time": "8PM - 9.30 PM",
+                "Event" : "Dinner"
+            }
+        ] 
+    },
+    {
+        "Title": "Marathi Asthitva",
+        "RSVPLink": "https://docs.google.com/forms/d/e/1FAIpQLSdo8a1p_NMHMXVCpahIrzQkEfjaFTlYlTx_cQB9uhBTDl4QvQ/viewform",        
+        "FBLink": "https://docs.google.com/forms/d/e/1FAIpQLSdo8a1p_NMHMXVCpahIrzQkEfjaFTlYlTx_cQB9uhBTDl4QvQ/viewform",        
+        "MemberFee": "$15 ($10 - Kids between 10 and 17)",
+        "NonMemberFee": "$15 ($10 - Kids between 10 and 17)",
+        "FeeLink": "https://www.tickethungama.com",
+        "Date" : "May 13, 2018 (Sun)",
+        "Agenda": [
+            {
+                "Time": "4.30PM - 6.30 PM",
+                "Event" : "Musical Program"
+            }
+        ] 
+    }
+]

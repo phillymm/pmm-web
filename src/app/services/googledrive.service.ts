@@ -7,6 +7,7 @@ import { Http, Response } from '@angular/http';
 import { environment } from '../../environments/environment';
 import { Committee } from './models/committee';
 import { Artifact } from './models/artifact';
+import { PMMEvent } from './models/pmm-events';
 
 @Injectable()
 export class GoogledriveService {
@@ -25,6 +26,14 @@ export class GoogledriveService {
     return this.http
       .get('assets/data/newsletters.json')
       .map(res =>  this.extractData<Artifact[]>(res))
+      .catch(this.catchBadResponse)
+      .finally(() => {});
+  }
+
+  getEvents(): Observable<PMMEvent[]> {
+    return this.http
+      .get('assets/data/events.json')
+      .map(res =>  this.extractData<PMMEvent[]>(res))
       .catch(this.catchBadResponse)
       .finally(() => {});
   }

@@ -3,37 +3,43 @@
 
   <div class="pmm-jumbotron" style="margin-top:15px;">
     <div class="row">
-        <span class="col-md-6">
-            <span style="font-weight: bold; font-size:large;">Membership brings significant savings</span>
-            <a  class="btn btn-sm btn-success" style="margin-left: 5px;" href= "membership">JOIN TODAY</a>
+        <span class="col-md-4" style="font-weight: bold; font-size:large;">Membership brings significant savings</span>
+        <span class="col-md-2">
+          <a class="btn btn-sm btn-success" style="margin-left: 5px;" href= "membership">JOIN TODAY</a>
         </span>
-        <span class="col-md-6">
-            <span style="font-weight: bold; font-size:large;">
-                Make a donation to Mandal.
+        <span class="col-md-4" style="font-weight: bold; font-size:large;">
+            Mandal accepts donations
+            <br>
+            <span class="text-muted" style="font-size:small;"> 
+              * Check with your company for matching donations
             </span>
-            <a class="btn btn-secondary" href="#" class="btn btn-sm btn-success" >Donate</a>
+        </span>
+        <span class="col-md-2">
+          <form ngNoForm action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="A8HXEXCSCR4UA">
+            <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
         </span>
     </div> 
   </div>
   
   <div class="pmm-jumbotron" style="margin-top:5px;margin-bottom: 15px;">
-    <div class="row">
-      <div class="col-md-4" style="margin-top:5px;">
-        <h2>Upcoming Events</h2>
-        <p>
-          Talent Show
-          Date: April 28 2018 (Sat)    
-        </p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-      </div>
-      <div class="col-md-4" style="margin-top:5px;">
-        <h2>Upcoming Events</h2>
-        <p>
-          Marathi Asthitva
-          Date: May 13 2018 (Sat)    
-        </p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-      </div>
+    <div class="row" *ngIf="pmmevent && pmmevent.length > 0">
+        <span *ngFor="let e of pmmevent" class="col-md-6" style="margin-top:5px;">
+            <h5>{{e.Title}} - {{e.Date}}</h5>
+            <h6>Event Timeline</h6>
+            <div *ngFor="let ea of e.Agenda">
+              <span>{{ea.Time}}</span>
+              <span>{{ea.Event}}</span>
+            </div>
+            <h6 style="margin-top:5px;"><a [href]="e.RSVPLink">RSVP Link</a></h6>
+            <h6>Member Fee: {{e.MemberFee}}</h6>
+            <h6>Non-Member Fee: {{e.NonMemberFee}} {{e.FeeLink}}</h6>
+            <h6 *ngIf="e.FeeLink"><a [href]="e.FeeLink">Ticket Link</a></h6>            
+            <h6><a [href]="e.FBLink">Facebook Link</a></h6>
+        </span>
     </div>
   </div>
   
