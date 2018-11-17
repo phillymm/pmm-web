@@ -5,12 +5,10 @@
     
     <div *ngIf="photo && photo.length > 0">
         <div *ngFor="let p of photo" class="pmm-jumbotron" style="margin-bottom: 15px;">
-            <div class="row">
-                <a [href] = "p.Url">
-                    <span class="col-md-8" style="font-weight: bold; font-size:large;margin-bottom: 10px;">
-                        {{p.Title}}
-                    </span>
-                </a>
+            <div class="row">                
+                <span class="col-md-8" style="font-weight: bold; font-size:large;margin-bottom: 10px;">
+                    <a [href] = "p.Url" target="_blank">{{p.Title}}</a>
+                </span>
             </div>
         </div>
     </div>

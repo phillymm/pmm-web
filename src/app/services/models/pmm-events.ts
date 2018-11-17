@@ -7,9 +7,12 @@ export class PMMEvent {
     Title = '';
     RSVPLink = '';
     FBLink = '';
-    MemberFee = '';
-    NonMemberFee = '';
+    Fee = '';
+    FeeDetails = '';
     FeeLink = '';
     Date = '';
     Agenda: PMMEventAgenda[];
+    Venue: '';
+    Flyer: '';
+    Video: '';
 }
