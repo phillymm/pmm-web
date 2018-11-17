@@ -24,27 +24,50 @@
         </span>
     </div> 
   </div>
-  
   <div class="pmm-jumbotron" style="margin-top:5px;margin-bottom: 15px;">
+      <div class="row" >
+          <span class="col-md-12"  style="font-weight: bold; font-size:large;">Join our mailing list: <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_cJX8XcJXgYQJbczqw9SGRcHmp_kTR6Fej9-yCr7F1BSoCg/viewform">Mailing List Subscription</a></span>
+        </div>
+  </div>
+  <div class="pmm-jumbotron" style="margin-top:5px;margin-bottom: 15px;">
+    <div class="row" *ngIf="pmmevent && pmmevent.length > 0">
+      <span class="col-md-12"><h4>UPCOMING EVENTS</h4></span>
+    </div>
     <div class="row" *ngIf="pmmevent && pmmevent.length > 0">
         <span *ngFor="let e of pmmevent" class="col-md-6" style="margin-top:5px;">
             <h5>{{e.Title}} - {{e.Date}}</h5>
-            <h6>Event Timeline</h6>
-            <div *ngFor="let ea of e.Agenda">
-              <span>{{ea.Time}}</span>
-              <span>{{ea.Event}}</span>
+            <h6><u>Venue:</u> {{e.Venue}}</h6>
+            <h6 *ngIf="e.Agenda.length > 1"><u>Event Timeline</u></h6>
+            <div *ngIf="e.Agenda.length > 1">
+              <div  *ngFor="let ea of e.Agenda">
+                <span>{{ea.Time}}</span>
+                <span>{{ea.Event}}</span>
+              </div>
             </div>
+            <h6 *ngIf="e.Agenda.length == 1"><u>Event Time</u> {{e.Agenda[0].Time}}</h6>
             <h6 *ngIf="e.RSVPLink" style="margin-top:5px;"><a [href]="e.RSVPLink">RSVP Link</a></h6>
-            <h6>Member Fee: {{e.MemberFee}}</h6>
-            <h6>Non-Member Fee: {{e.NonMemberFee}} {{e.FeeLink}}</h6>
-            <h6 *ngIf="e.FeeLink"><a [href]="e.FeeLink">Ticket Link</a></h6>            
-            <h6><a [href]="e.FBLink">Facebook Link</a></h6>
+            <h6 *ngIf="e.Fee"style="margin-top:5px;"><u>Program Fees:</u> {{e.Fee}}</h6>
+            <h6 *ngIf="e.FeeDetails"><u>Fee Details:</u> <strong>{{e.FeeDetails}}</strong></h6>
+            <h6 *ngIf="e.FeeLink" style="margin-top:5px;"><a [href]="e.FeeLink">TICKET LINK</a></h6>            
+            <h6 *ngIf="e.FBLink"  style="margin-top:5px;"><a [href]="e.FBLink">Facebook Link</a></h6>
+            <div *ngIf="e.Video" class="embed-responsive embed-responsive-16by9">
+              <!--<iframe class="embed-responsive-item" [src]="e.Video"></iframe>-->
+              <!--need to wrap the videoURL with trustResourceAsURL later on, for now hard code the video-->
+              <iframe src="https://www.youtube.com/embed/2796TUWQXRs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>              
+            </div>
+            <img *ngIf="!e.Video" [src]="e.Flyer" width="100%" style="margin-top: 10"/>
         </span>
     </div>
   </div>
-  
+  <div class="pmm-jumbotron" style="margin-top:5px;margin-bottom: 15px;">
+    <div class="row" >
+        <span class="col-md-12"  style="font-weight: bold; font-size:large;">
+          Want to bring a great show to us. Submit your proposal here: <a href="https://goo.gl/forms/i8Q3Rb1xj0PGQmXg2">PMM Program Proposal Solicitation Portal</a>
+        </span>
+      </div>
+</div>
   <div class="container">
-      <img width="100%" height="60%" 
-      src="assets/images/c284cfcad4693227559db521363bdb0c.png">
+      <img width="100%" 
+      src="assets/images/PNGWebBanner.jpg">
   </div>  
 </section>

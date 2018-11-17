@@ -7,5 +7,6 @@ export class CommitteeMembers {
 export class Committee {
     Title: string;
     Email: string;
+    Picture: string;
     Members: CommitteeMembers[];
 }

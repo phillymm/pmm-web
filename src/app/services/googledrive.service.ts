@@ -8,11 +8,20 @@ import { environment } from '../../environments/environment';
 import { Committee } from './models/committee';
 import { Artifact } from './models/artifact';
 import { PMMEvent } from './models/pmm-events';
+import { MembershipType } from './models/membershipTypes';
 
 @Injectable()
 export class GoogledriveService {
   // ideally need an api that can explore the shared folders.
   constructor(private http: Http) { }
+
+  getMembershipTypes(): Observable<MembershipType[]> {
+    return this.http
+      .get('assets/data/membershipTypes.json')
+      .map(res => this.extractData<MembershipType[]>(res))
+      .catch(this.catchBadResponse)
+      .finally(() => {});
+  }
 
   getCommittee(): Observable<Committee[]> {
     return this.http

@@ -1,93 +1,97 @@
 [
     {
-        "Title": "Officers",
+        "Title": "Executive Committee (ec-phillymm@googlegroups.com)",
+        "Picture": "assets/images/EC-Collage.png",
         "Members" : [
             {
                 "role": "President",
-                "person": "Sangeeta Raje-Palkar",
-                "email": "president@phillymm.org"
+                "person": "Vikrant Kamble",
+                "email": "President@phillymm.org",
+                "picture":"assets/images/VK.jpg"
             },
             {
                 "role": "Vice President",
-                "person": "Vikrant Kamble",
-                "email": "v.p@phillymm.org"
+                "person": "Rahul Palnitkar",
+                "email": "VicePresident.PhillyMM@gmail.com",
+                "picture":"assets/images/RP.jpg"
             },
             {
                 "role": "Secretary",
-                "person": "Rahul Palnitkar",
-                "email": "Secy@phillymm.org"
+                "person": "Gautami Joglekar",
+                "email": "Secy.PhillyMM@gmail.com",
+                "picture":"assets/images/GJ.jpg"
             },
             {
                 "role": "Associate Secretary",
-                "person": "Smruti Phathak",
-                "email": ""
+                "person": "Swati Watve",
+                "email": "",
+                "picture":"assets/images/SW.jpg"
             },
             {
                 "role": "Treasurer",
-                "person": "Vilas Sodaye",
-                "email": "treasurer@phillymm.org"
+                "person": "Wilfred Dsouza",
+                "email": "Treasurer.PhillyMM@gmail.com",
+                "picture":"assets/images/WD.jpg"
             },
             {
                 "role": "Associate Treasurer",
-                "person": "Sanjay Valanju",
-                "email": ""
+                "person": "Anuja Palsule",
+                "email": "",
+                "picture":"assets/images/AP.jpg"
             },
             {
-                "role": "Webmaster",
-                "person": "Manish Kurhekar",
-                "email": ""
+                "role": "Web Team",
+                "person": "Amit Shinde, Yogesh Jamkhindikar",
+                "email": "",
+                "picture":"assets/images/WebTeam-Collage.png"
             },
             {
                 "role": "BMM Liaison",
                 "person": "Ani Railkar",
-                "email": ""
-            }
-        ]
-    },
-    {
-        "Title": "Executive Committee",
-        "Members" : [
-            {
-                "person":"Wilfred DSouza"
+                "email": "",
+                "picture":"assets/images/AR.jpg"
             },
             {
-                "person": "Tejas Sirsat"
+                "role": "Community Outreach",
+                "person": "Vaishali Joglekar, Priya Joshi, Prasad Sawant, Arpana Date, Ojaswinee Jog, Geeta Shelukar",
+                "email": "",
+                "picture":"assets/images/Outreach-collage.png"
             },
             {
-                "person": "Gautami Joglekar"
+                "role": "Inventory Management",
+                "person": "Ojaswinee Jog, Arpana Date, Anuja Palsule",
+                "email": "",
+                "picture":"assets/images/Inventory-collage.png"
             },
             {
-                "person": "Arpana Date"
+                "role": "Event Venue Co-ordinator",
+                "person": "Pallavi Nadkarni",
+                "email": "",
+                "picture":""
             },
             {
-                "person": "Anuja Palsule"
-            },
-            {
-                "person": "Vaishali Joglekar"
-            },
-            {
-                "person": "​​Ojaswinee Jog"
-            },
-            {
-                "person": "Swati Watve"
-            },
-            {
-                "person": "Pallavi Nadkarni"
+                "role": "PMM Task Force - (aka helping hands)",
+                "person": "Neeraj Joshi",
+                "email": "",
+                "picture":""
             }
         ]
     },
     {
         "Title": "Trustees",
-        "Email": "trustees@phillymm.org",
+        "Email": "trustees-phillymm@googlegrooups.com",
         "Members" : [
             {
                 "person":"Achyut Ratnaparkhi"   
             },
             {
-                "person":"Mandar Jogalekar"   
+                "person":"Sangeeta Raje-Palkar"   
             },
             {
-                "person":"Kedar Gidh"   
+                "person":"Shubhra Vedanti"   
+            },
+            {
+                "person":"Komal Date"   
             },
             {
                 "person":"Vivek Inamdar"   
