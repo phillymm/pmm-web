@@ -10,11 +10,23 @@
         "Agenda": [            
             {
                 "Time": "8:30 AM: 8:50 AM",
-                "Event" : "Arrival and Ticket verification"
+                "Event" : "Arrival and Ticket verification. Parking details at: www.amblertheater.org/parking"
             },
             {
-                "Time": "8:50 AM: 11:45 AM",
-                "Event" : "Movie"
+                "Time": "8:55 AM",
+                "Event" : "Movie Starts"
+            },
+            {
+                "Time": "10:20 AM: 10:30 AM",
+                "Event" : "Interval and quick announcements"
+            },
+            {
+                "Time": "10:30 AM",
+                "Event" : "Resume the movie"
+            },
+            {
+                "Time": "11:55 AM",
+                "Event" : "Vacate the venue"
             }
         ],
         "Flyer": "https://drive.google.com/uc?id=1tUGTo3npAe5lXiT-JoBPK2_i37i2HzN4",
