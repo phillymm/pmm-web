@@ -15,6 +15,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { GoogledriveService } from './services/googledrive.service';
 import { PhotoVideoComponent } from './photo-video/photo-video.component';
 import { HeaderComponent } from './header/header.component';
+import { MerchandiseComponent } from './merchandise/merchandise.component';
 
 
 
@@ -30,7 +31,8 @@ import { HeaderComponent } from './header/header.component';
     FaqComponent,
     PageNotFoundComponent,
     PhotoVideoComponent,
-    HeaderComponent
+    HeaderComponent,
+    MerchandiseComponent
   ],
   imports: [
     BrowserModule,

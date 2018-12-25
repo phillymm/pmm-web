@@ -9,6 +9,7 @@ import { Committee } from './models/committee';
 import { Artifact } from './models/artifact';
 import { PMMEvent } from './models/pmm-events';
 import { MembershipType } from './models/membershipTypes';
+import { MerchandiseItem } from './models/merchandise';
 
 @Injectable()
 export class GoogledriveService {
@@ -18,6 +19,14 @@ export class GoogledriveService {
   getMembershipTypes(): Observable<MembershipType[]> {
     return this.http
       .get('assets/data/membershipTypes.json')
+      .map(res => this.extractData<MembershipType[]>(res))
+      .catch(this.catchBadResponse)
+      .finally(() => {});
+  }
+
+  getMerchandiseItems(): Observable<MerchandiseItem[]> {
+    return this.http
+      .get('assets/data/merchandiseItems.json')
       .map(res => this.extractData<MembershipType[]>(res))
       .catch(this.catchBadResponse)
       .finally(() => {});
