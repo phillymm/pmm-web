@@ -9,6 +9,7 @@ import { NewsletterComponent } from './newsletter/newsletter.component';
 import { NewToPhillyComponent } from './new-to-philly/new-to-philly.component';
 import { CommitteeComponent } from './committee/committee.component';
 import { FaqComponent } from './faq/faq.component';
+import { MerchandiseComponent } from './merchandise/merchandise.component';
 
 export const routes: Routes = [
     {
@@ -31,6 +32,10 @@ export const routes: Routes = [
     {
       path: 'membership',
       component: MembershipComponent
+    },
+    {
+      path: 'merchandise',
+      component: MerchandiseComponent
     },
     {
       path: 'newsletter',
