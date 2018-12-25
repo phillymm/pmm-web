@@ -1,38 +1,4 @@
-[   
-    {
-        "Title": "Ani Dr Kashinath Ghanekar - Marathi Movie",
-        "RSVPLink": "",        
-        "FBLink": "",        
-        "Fee": "$12 Adult/ $10 Kids under 16. Payment link is below.",
-        "FeeDetails": "Popcorn bag and one soft drink on us",
-        "FeeLink": "https://www.hungamacity.com/kashinathmovie",
-        "Date" : "Saturday Dec 08",
-        "Agenda": [            
-            {
-                "Time": "8:30 AM: 8:50 AM",
-                "Event" : "Arrival and Ticket verification. Parking details at: www.amblertheater.org/parking"
-            },
-            {
-                "Time": "8:55 AM",
-                "Event" : "Movie Starts"
-            },
-            {
-                "Time": "10:20 AM: 10:30 AM",
-                "Event" : "Interval and quick announcements"
-            },
-            {
-                "Time": "10:30 AM",
-                "Event" : "Resume the movie"
-            },
-            {
-                "Time": "11:55 AM",
-                "Event" : "Vacate the venue"
-            }
-        ],
-        "Flyer": "https://drive.google.com/uc?id=1tUGTo3npAe5lXiT-JoBPK2_i37i2HzN4",
-        "Venue": "Ambler Theater - 108 E Butler Ave, Ambler, PA 19002",
-        "Video" : ""  
-    },
+[       
     {
         "Title": "PMM Sankarant 2019 - Game Night",
         "RSVPLink": "",        
@@ -40,15 +6,41 @@
         "Fee": "Free to PMM members. Non members can pay online. Payment link is below.",
         "FeeDetails": "",
         "FeeLink": "membership",
-        "Date" : "January 2019.",
+        "Date" : "Saturday, January 26, 2019.",
         "Agenda": [            
             {
-                "Time": "TBD ",
-                "Event" : "Game Night"
+                "Time": "4:30 pm to 6:30pm",
+                "Event" : "Registration and Haldi Kunku for ladies. Parallely different games will begin."
+            },
+            {
+                "Time": "Upto 7:30pm",
+                "Event" : "Various Group and Interactive Games."
+            },
+            {
+                "Time": "7:30pm: 9pm",
+                "Event" : "Dinner. Venue has to be vacated at 9:30pm"
             }
         ],
         "Flyer": "",
-        "Venue": "TBD",
+        "Venue": "College Hall - Entrance A-3. Montgomery County Community College. 340 Dekalb Pike, Blue Bell, PA.",
+        "Video" : ""  
+    },
+    {
+        "Title": "Eka Lagnachi Pudhchi Goshta - Marathi Natak - Starring Prashant Damle",
+        "RSVPLink": "",        
+        "FBLink": "",        
+        "Fee": "Coming soon",
+        "FeeDetails": "",
+        "FeeLink": "https://www.hungamacity.com/prashantdamlenatak",
+        "Date" : "Sunday March 31, 2019",
+        "Agenda": [            
+            {
+                "Time": "2PM",
+                "Event" : "Natak"
+            }
+        ],
+        "Flyer": "",
+        "Venue": "Montgomery County Community College Auditorium",
         "Video" : ""  
     }
 ]
