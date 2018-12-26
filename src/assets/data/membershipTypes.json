@@ -1,11 +1,10 @@
 [
+    {"name":"1 - Game Night Membership (Non Member Fee)","divid":"dCurrent"},
     {"name":"2 - Family Membership","divid":"dFamily"},
     {"name":"3 - Senior Citizen", "divid":"dSenior"},
     {"name":"4 - Individual Membership", "divid":"dSingle"},
     {"name":"5 - Single Parent","divid":"dSingleParent"},
     {"name":"6 - Student Membership","divid":"dStudent"},
     {"name":"7 - Visiting Parents Membership (6 months)","divid":"dParent"},
-    {"name":"8 - How to Cancel Automatic Membership Renewal?","divid":"dCancel"},
-    {"name":"9 - Game Night Membership (Non Member Fee)","divid":"dCurrent"}
-    
+    {"name":"8 - How to Cancel Automatic Membership Renewal?","divid":"dCancel"}    
 ]
