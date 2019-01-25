@@ -1,7 +1,7 @@
 [       
     {
         "Title": "PMM Sankarant 2019 - Game Night",
-        "RSVPLink": "",        
+        "RSVPLink": "http://evite.me/FcRqdKvq5r",        
         "FBLink": "",        
         "Fee": "Free to PMM members. Non members can pay online. Payment link is below.",
         "FeeDetails": "",
@@ -9,19 +9,47 @@
         "Date" : "Saturday, January 26, 2019.",
         "Agenda": [            
             {
-                "Time": "4:30 pm to 6:30pm",
-                "Event" : "Registration and Haldi Kunku for ladies. Parallely different games will begin."
+                "Time": "4:30 pm to 6:00pm",
+                "Event" : "Registration, Raffle, Calendar Pickup (A3 Entrance)"
             },
             {
-                "Time": "Upto 7:30pm",
-                "Event" : "Various Group and Interactive Games."
+                "Time": "4:30-6:00 pm & 8:30 -9:00 pm",
+                "Event" : "Haldi kunku (Cafe)"
             },
             {
-                "Time": "7:30pm: 9pm",
-                "Event" : "Dinner. Venue has to be vacated at 9:30pm"
+                "Time": "4:30-6:00 pm",
+                "Event" : "Appetizer and Tea (Cafe)"
+            },
+            {
+                "Time": "4:30 pm Onwards",
+                "Event" : "Carrom Tournament (Cafe)"
+            },
+            {
+                "Time": "4:30-5:15 pm",
+                "Event" : "Live YOGA session"
+            },
+            {
+                "Time": "5:30-6:15 pm",
+                "Event" : "Session 1 of Circle Games (Hall)."
+            },
+            {
+                "Time": "5:30-6:15 pm",
+                "Event" : "Kids Musical Chair-parents will supervise (Cafe)"
+            },
+            {
+                "Time": "6:30-7:15 pm",
+                "Event" : "Adult musical chair (Cafe)"
+            },
+            {
+                "Time": "7:30-9:15 pm",
+                "Event" : "Raffle and Game Winner announcements"
+            },
+            {
+                "Time": "9:15 - 9:45pm",
+                "Event" : "Cleanup and closure"
             }
         ],
-        "Flyer": "",
+        "Flyer": "https://drive.google.com/uc?id=1SAI1jkQhKds_eDlmYWo3YVcoeJcIAz8K",
         "Venue": "College Hall - Entrance A-3. Montgomery County Community College. 340 Dekalb Pike, Blue Bell, PA.",
         "Video" : ""  
     },
