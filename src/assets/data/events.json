@@ -1,74 +1,56 @@
-[       
-    {
-        "Title": "PMM Sankarant 2019 - Game Night",
-        "RSVPLink": "http://evite.me/FcRqdKvq5r",        
-        "FBLink": "",        
-        "Fee": "Free to PMM members. Non members can pay online. Payment link is below.",
-        "FeeDetails": "",
-        "FeeLink": "membership",
-        "Date" : "Saturday, January 26, 2019.",
-        "Agenda": [            
-            {
-                "Time": "4:30 pm to 6:00pm",
-                "Event" : "Registration, Raffle, Calendar Pickup (A3 Entrance)"
-            },
-            {
-                "Time": "4:30-6:00 pm & 8:30 -9:00 pm",
-                "Event" : "Haldi kunku (Cafe)"
-            },
-            {
-                "Time": "4:30-6:00 pm",
-                "Event" : "Appetizer and Tea (Cafe)"
-            },
-            {
-                "Time": "4:30 pm Onwards",
-                "Event" : "Carrom Tournament (Cafe)"
-            },
-            {
-                "Time": "4:30-5:15 pm",
-                "Event" : "Live YOGA session"
-            },
-            {
-                "Time": "5:30-6:15 pm",
-                "Event" : "Session 1 of Circle Games (Hall)."
-            },
-            {
-                "Time": "5:30-6:15 pm",
-                "Event" : "Kids Musical Chair-parents will supervise (Cafe)"
-            },
-            {
-                "Time": "6:30-7:15 pm",
-                "Event" : "Adult musical chair (Cafe)"
-            },
-            {
-                "Time": "7:30-9:15 pm",
-                "Event" : "Raffle and Game Winner announcements"
-            },
-            {
-                "Time": "9:15 - 9:45pm",
-                "Event" : "Cleanup and closure"
-            }
-        ],
-        "Flyer": "https://drive.google.com/uc?id=1SAI1jkQhKds_eDlmYWo3YVcoeJcIAz8K",
-        "Venue": "College Hall - Entrance A-3. Montgomery County Community College. 340 Dekalb Pike, Blue Bell, PA.",
-        "Video" : ""  
-    },
+[   
     {
         "Title": "Eka Lagnachi Pudhchi Goshta - Marathi Natak - Starring Prashant Damle",
         "RSVPLink": "",        
         "FBLink": "",        
-        "Fee": "Coming soon",
-        "FeeDetails": "",
+        "Fee": "See ticket portal",
+        "FeeDetails": "Baby sitting payment link: https://docs.google.com/forms/d/e/1FAIpQLSfPbwtJOGO_QV0dL7dKGWc-l7N0PXrr-zhqXAp-b8QTG4GU4g/viewform",
         "FeeLink": "https://www.hungamacity.com/prashantdamlenatak",
         "Date" : "Sunday March 31, 2019",
         "Agenda": [            
             {
-                "Time": "2PM",
+                "Time": "3:30 PM",
                 "Event" : "Natak"
             }
         ],
         "Flyer": "https://drive.google.com/uc?id=1oGYDLshJLb1TTVX3lI69Nv83IDZKCu68",
-        "Venue": "Montgomery County Community College Auditorium",
+        "Venue": "Montgomery County Community College Auditorium - Science Center Building",
+        "Video" : ""  
+    },
+    {
+        "Title": "Meet and Greet - Prashant Damle and Kavita Lad-Medhekar",
+        "RSVPLink": "",        
+        "FBLink": "",        
+        "Fee": "See ticket portal",
+        "FeeDetails": "",
+        "FeeLink": "https://www.hungamacity.com/meetprashantdamle",
+        "Date" : "Monday April 1, 2019",
+        "Agenda": [            
+            {
+                "Time": "6:30 PM",
+                "Event" : "Meet and Greet"
+            }
+        ],
+        "Flyer": "https://drive.google.com/uc?id=1oGYDLshJLb1TTVX3lI69Nv83IDZKCu68",
+        "Venue": "Blue Bell Country Club",
+        "Video" : ""  
+    },    
+    {
+        "Title": "PMM Gudhi Padwa - Avdhoot Gupte and Swapnil Bandokar Live in Concert",
+        "RSVPLink": "",        
+        "FBLink": "",        
+        "Fee": "Coming soon",
+        "FeeDetails": "",
+        "FeeLink": "",
+        "Date" : "Sunday May 5, 2019",
+        "Agenda": [            
+            {
+                "Time": "TBD",
+                "Event" : "First time in the tristate area - Avdhoot Gupte live in concert"
+            }
+        ],        
+        "Flyer": "https://drive.google.com/uc?id=1waRwzoZAA2kPxOpNYARsF4o9Oitc_XoO",
+        "Venue": "Newtown, PA",
         "Video" : ""  
     }
 ]
