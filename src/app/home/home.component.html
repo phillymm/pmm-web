@@ -1,73 +1,84 @@
 <section class="home">
-  <!-- Main jumbotron for a primary marketing message or call to action -->
-
-  <div class="pmm-jumbotron" style="margin-top:15px;">
-    <div class="row">
-        <span class="col-md-4" style="font-weight: bold; font-size:large;">Membership brings significant savings</span>
-        <span class="col-md-2">
-          <a class="btn btn-sm btn-success" style="margin-left: 5px;" href= "membership">JOIN TODAY</a>
-        </span>
-        <span class="col-md-4" style="font-weight: bold; font-size:large;">
-            Mandal accepts donations
-            <br>
-            <span class="text-muted" style="font-size:small;"> 
-              * Check with your company for matching donations
-            </span>
-        </span>
-        <span class="col-md-2">
-          <form ngNoForm action="https://www.paypal.com/cgi-bin/webscr" method="post">
-            <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" name="hosted_button_id" value="A8HXEXCSCR4UA">
-            <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-            <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
-          </form>
-        </span>
-    </div> 
-  </div>
-  <div class="pmm-jumbotron" style="margin-top:5px;margin-bottom: 15px;">
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+  
+    <div class="pmm-jumbotron" style="margin-top:15px;">
+      <div class="row">
+          <span class="col-md-6" style="font-weight: bold; font-size:large;">Picnic Event on Saturday, July 20th, 2019</span>
+          <span class="col-md-6">
+              <span style="font-weight: bold; font-size:large;">RSVP</span> 
+              <span class="text-muted" style="font-size:small;"> 
+                * 100% RSVP refund for program attendees
+              </span>
+              <form ngNoForm action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="UKTSCHQBHLR3G">
+                <table>
+                <tr><td><input type="hidden" name="on0" value="Picnic 2019 - RSVP">Picnic 2019 - RSVP</td></tr><tr><td><select name="os0">
+                  <option value="PMM Member - Family of 4">PMM Member - Family of 4 $40.00 USD</option>
+                  <option value="PMM Member - Family of 3">PMM Member - Family of 3 $30.00 USD</option>
+                  <option value="PMM Member - Family of 2">PMM Member - Family of 2 $20.00 USD</option>
+                  <option value="PMM Member - Single">PMM Member - Single $10.00 USD</option>
+                  <option value="Non Members - 2 Adult, 2 Kids">Non Members - 2 Adult, 2 Kids $60.00 USD</option>
+                  <option value="Non Members - 2 Adult, 1 Child">Non Members - 2 Adult, 1 Child $50.00 USD</option>
+                  <option value="Non Members - 2 Adult">Non Members - 2 Adult $40.00 USD</option>
+                  <option value="Non Members - 1 Adult">Non Members - 1 Adult $20.00 USD</option>
+                  <option value="Non Members - 3 Adult">Non Members - 3 Adult $60.00 USD</option>
+                </select> </td></tr>
+                <tr><td><input type="hidden" name="on1" value="Attendee Full Name">Attendee Full Name</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
+                <tr><td><input type="hidden" name="on2" value="Attendee Full Name Continue...">Attendee Full Name Continue...</td></tr><tr><td><input type="text" name="os2" maxlength="200"></td></tr>
+                </table>
+                <input type="hidden" name="currency_code" value="USD">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+          </span>
+          
+      </div> 
+    </div>
+    <div class="pmm-jumbotron" style="margin-top:5px;margin-bottom: 15px;">
+        <div class="row" >
+            <span class="col-md-12"  style="font-weight: bold; font-size:large;">Join our mailing list: <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_cJX8XcJXgYQJbczqw9SGRcHmp_kTR6Fej9-yCr7F1BSoCg/viewform">Mailing List Subscription</a></span>
+          </div>
+    </div>
+    <div class="pmm-jumbotron" style="margin-top:5px;margin-bottom: 15px;">
+      <div class="row" *ngIf="pmmevent && pmmevent.length > 0">
+        <span class="col-md-12"><h4>UPCOMING EVENTS</h4></span>
+      </div>
+      <div class="row" *ngIf="pmmevent && pmmevent.length > 0">
+          <span *ngFor="let e of pmmevent" class="col-md-6" style="margin-top:5px;">
+              <h5>{{e.Title}} - {{e.Date}}</h5>
+              <h6><u>Venue:</u> {{e.Venue}}</h6>
+              <h6 *ngIf="e.Agenda.length > 1"><u>Event Timeline</u></h6>
+              <div *ngIf="e.Agenda.length > 1">
+                <div  *ngFor="let ea of e.Agenda">
+                  <span>{{ea.Time}}</span>
+                  <span>{{ea.Event}}</span>
+                </div>
+              </div>
+              <h6 *ngIf="e.Agenda.length == 1"><u>Event Time</u> {{e.Agenda[0].Time}}</h6>
+              <h6 *ngIf="e.RSVPLink" style="margin-top:5px;"><a [href]="e.RSVPLink">RSVP Link</a></h6>
+              <h6 *ngIf="e.Fee"style="margin-top:5px;"><u>Program Fees:</u> {{e.Fee}}</h6>
+              <h6 *ngIf="e.FeeDetails"><u>Fee Details:</u> <strong>{{e.FeeDetails}}</strong></h6>
+              <h6 *ngIf="e.FeeLink" style="margin-top:5px;"><a [href]="e.FeeLink">TICKET LINK</a></h6>            
+              <h6 *ngIf="e.FBLink"  style="margin-top:5px;"><a [href]="e.FBLink">Facebook Link</a></h6>
+              <div *ngIf="e.Video" class="embed-responsive embed-responsive-16by9">
+                <!--<iframe class="embed-responsive-item" [src]="e.Video"></iframe>-->
+                <!--need to wrap the videoURL with trustResourceAsURL later on, for now hard code the video-->
+                <iframe src="https://www.youtube.com/embed/2796TUWQXRs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>              
+              </div>
+              <img *ngIf="!e.Video" [src]="e.Flyer" width="100%" style="margin-top: 10"/>
+          </span>
+      </div>
+    </div>
+    <div class="pmm-jumbotron" style="margin-top:5px;margin-bottom: 15px;">
       <div class="row" >
-          <span class="col-md-12"  style="font-weight: bold; font-size:large;">Join our mailing list: <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_cJX8XcJXgYQJbczqw9SGRcHmp_kTR6Fej9-yCr7F1BSoCg/viewform">Mailing List Subscription</a></span>
+          <span class="col-md-12"  style="font-weight: bold; font-size:large;">
+            Want to bring a great show to us. Submit your proposal here: <a href="https://goo.gl/forms/i8Q3Rb1xj0PGQmXg2">PMM Program Proposal Solicitation Portal</a>
+          </span>
         </div>
   </div>
-  <div class="pmm-jumbotron" style="margin-top:5px;margin-bottom: 15px;">
-    <div class="row" *ngIf="pmmevent && pmmevent.length > 0">
-      <span class="col-md-12"><h4>UPCOMING EVENTS</h4></span>
-    </div>
-    <div class="row" *ngIf="pmmevent && pmmevent.length > 0">
-        <span *ngFor="let e of pmmevent" class="col-md-6" style="margin-top:5px;">
-            <h5>{{e.Title}} - {{e.Date}}</h5>
-            <h6><u>Venue:</u> {{e.Venue}}</h6>
-            <h6 *ngIf="e.Agenda.length > 1"><u>Event Timeline</u></h6>
-            <div *ngIf="e.Agenda.length > 1">
-              <div  *ngFor="let ea of e.Agenda">
-                <span>{{ea.Time}}</span>
-                <span>{{ea.Event}}</span>
-              </div>
-            </div>
-            <h6 *ngIf="e.Agenda.length == 1"><u>Event Time</u> {{e.Agenda[0].Time}}</h6>
-            <h6 *ngIf="e.RSVPLink" style="margin-top:5px;"><a [href]="e.RSVPLink">RSVP Link</a></h6>
-            <h6 *ngIf="e.Fee"style="margin-top:5px;"><u>Program Fees:</u> {{e.Fee}}</h6>
-            <h6 *ngIf="e.FeeDetails"><u>Fee Details:</u> <strong>{{e.FeeDetails}}</strong></h6>
-            <h6 *ngIf="e.FeeLink" style="margin-top:5px;"><a [href]="e.FeeLink">TICKET LINK</a></h6>            
-            <h6 *ngIf="e.FBLink"  style="margin-top:5px;"><a [href]="e.FBLink">Facebook Link</a></h6>
-            <div *ngIf="e.Video" class="embed-responsive embed-responsive-16by9">
-              <!--<iframe class="embed-responsive-item" [src]="e.Video"></iframe>-->
-              <!--need to wrap the videoURL with trustResourceAsURL later on, for now hard code the video-->
-              <iframe src="https://www.youtube.com/embed/2796TUWQXRs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>              
-            </div>
-            <img *ngIf="!e.Video" [src]="e.Flyer" width="100%" style="margin-top: 10"/>
-        </span>
-    </div>
-  </div>
-  <div class="pmm-jumbotron" style="margin-top:5px;margin-bottom: 15px;">
-    <div class="row" >
-        <span class="col-md-12"  style="font-weight: bold; font-size:large;">
-          Want to bring a great show to us. Submit your proposal here: <a href="https://goo.gl/forms/i8Q3Rb1xj0PGQmXg2">PMM Program Proposal Solicitation Portal</a>
-        </span>
-      </div>
-</div>
-  <!--div class="container">
-      <img width="100%" 
-      src="assets/images/PNGWebBanner.jpg">
-  </div-->  
-</section>
+    <!--div class="container">
+        <img width="100%" 
+        src="assets/images/PNGWebBanner.jpg">
+    </div-->  
+  </section>
