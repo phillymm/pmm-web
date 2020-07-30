@@ -1,20 +1,16 @@
-[
-    {
-        "Title": "Eka Lagnachi Pudhchi Goshta - Marathi Natak - Starring Prashant Damle",
+[       
+	{
+        "Title": "PMM Sankranti 2020 - Talent Show",
         "RSVPLink": "",        
         "FBLink": "",        
-        "Fee": "Coming soon",
+        "Fee": "",
         "FeeDetails": "",
-        "FeeLink": "https://www.hungamacity.com/prashantdamlenatak",
-        "Date" : "Sunday March 31, 2019",
+        "FeeLink": "",
+        "Date" : "Saturday Jan 25, 2020",
         "Agenda": [            
-            {
-                "Time": "2PM",
-                "Event" : "Natak"
-            }
-        ],
-        "Flyer": "https://drive.google.com/uc?id=1oGYDLshJLb1TTVX3lI69Nv83IDZKCu68",
-        "Venue": "Montgomery County Community College Auditorium",
+               ],        
+        "Flyer": "",
+        "Venue": "Bharatiya Temple @ 1612 County Line Rd, Chalfont, PA  18914",
         "Video" : ""  
     }
 ]

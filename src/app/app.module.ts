@@ -16,7 +16,8 @@ import { GoogledriveService } from './services/googledrive.service';
 import { PhotoVideoComponent } from './photo-video/photo-video.component';
 import { HeaderComponent } from './header/header.component';
 import { MerchandiseComponent } from './merchandise/merchandise.component';
-
+import { PdfViewerModule } from 'ng2-pdf-viewer';
+import { CommonPdfViewerComponent } from './common-pdf-viewer/common-pdf-viewer.component';
 
 
 @NgModule({
@@ -32,14 +33,16 @@ import { MerchandiseComponent } from './merchandise/merchandise.component';
     PageNotFoundComponent,
     PhotoVideoComponent,
     HeaderComponent,
-    MerchandiseComponent
+    MerchandiseComponent,
+    CommonPdfViewerComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
     HttpModule,
-    AppRoutingModule
+    AppRoutingModule,
+    PdfViewerModule
   ],
   providers: [
     GoogledriveService

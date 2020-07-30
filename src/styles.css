@@ -148,3 +148,25 @@ div { margin: auto; }
 a { color: #3b5998; text-decoration: none; }
 a:visited { color: #3b5998; }
 a:hover, a:active { color: #111100; border: #111100; text-decoration: underline; }
+
+.blinking{
+	animation:blinkingText 0.8s infinite;
+}
+@keyframes blinkingText {
+	0%{		color: rgb(21, 110, 243)}
+	49%{	color: red	}
+	50%{	color: rgb(102, 24, 4);	}
+	99%{	color:blue;	}
+	100%{	color: red;	}
+}
+
+.blinker {
+  color: green;
+  animation:blink 1s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1; color: rgb(243, 73, 21)}
+    30% { opacity: 0; color:#0044ff;}
+    100% { opacity: 1; color: rgb(243, 21, 21)}
+}

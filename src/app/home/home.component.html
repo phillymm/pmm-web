@@ -8,7 +8,7 @@
           <a class="btn btn-sm btn-success" style="margin-left: 5px;" href= "membership">JOIN TODAY</a>
         </span>
         <span class="col-md-4" style="font-weight: bold; font-size:large;">
-            Mandal accepts donations
+            <span style="color: red; font-size: medium;">Donation to SEWA 4 COVID-19 PA <i class="blinking" style="font-size: xx-small">Click Donate Button</i></span>
             <br>
             <span class="text-muted" style="font-size:small;"> 
               * Check with your company for matching donations
@@ -19,14 +19,48 @@
             <input type="hidden" name="cmd" value="_s-xclick">
             <input type="hidden" name="hosted_button_id" value="A8HXEXCSCR4UA">
             <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-            <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+             <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
           </form>
         </span>
     </div> 
   </div>
+
+  <div class="pmm-jumbotron" style="margin-top:5px;margin-bottom: 15px;">
+    <div class="row" >
+        <div class="col-md-12">
+            <div style="font-size: large; font-weight: bold;" class="blinking">Important information about PMM event on Sunday June 14th, 2020 @ 1.30 pm</div>
+            <div style="font-weight: bold;">
+              In order to make this an exclusive event for PMM and to respect the Jadugar's privacy, we need to broadcast this show on PMM’s private facebook group page (rather than general public page). 
+              <br/>
+              <br/>
+              <span style="text-decoration: underline;"> If you are not part of the PMM group, you will not be able to watch the show.
+              </span><br/><br/>
+              Please contact us @ <a href="" target="_blank">Secy.PhillyMM@gmail.com</a> if you do not have a Facebook account or do not want to connect to the PMM Facebook group page. <br/>
+              We will provide you with a special ZOOM link. 
+              <br/><br/>
+              Please follow the below steps to check if you are already part of this group.
+              <br/>
+              <ol>
+                <li>Visit <a href="https://www.facebook.com/groups/phillymm" target="_blank">https://www.facebook.com/groups/phillymm</a></li>
+                <li>If you are not a member of this FB group, please click the <span style="text-decoration: underline;">"Join Group"</span> button.
+                </li>
+                <li>Once PMM admin approves your request, you are all set.</li>
+              </ol>
+              
+              Thank you for your attention!!!
+            </div>
+        </div>
+      </div>
+  </div>
+
   <div class="pmm-jumbotron" style="margin-top:5px;margin-bottom: 15px;">
       <div class="row" >
-          <span class="col-md-12"  style="font-weight: bold; font-size:large;">Join our mailing list: <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_cJX8XcJXgYQJbczqw9SGRcHmp_kTR6Fej9-yCr7F1BSoCg/viewform">Mailing List Subscription</a></span>
+          <span class="col-md-6"  style="font-weight: bold; font-size:large;">Join our mailing list: <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_cJX8XcJXgYQJbczqw9SGRcHmp_kTR6Fej9-yCr7F1BSoCg/viewform">Mailing List Subscription</a></span>
+          <div class="col-md-6">
+              <!--i class="blinker fa fa-arrow-right fa-2x"></i>
+            <a style="text-decoration: underline" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeQMByCAeS7v-OY8R205HwoSq2oqXc_vcNY0z4zRxQipwf-xA/viewform">
+                Diwali Event Feedback Link</a-->
+          </div>
         </div>
   </div>
   <div class="pmm-jumbotron" style="margin-top:5px;margin-bottom: 15px;">
@@ -46,16 +80,21 @@
             </div>
             <h6 *ngIf="e.Agenda.length == 1"><u>Event Time</u> {{e.Agenda[0].Time}}</h6>
             <h6 *ngIf="e.RSVPLink" style="margin-top:5px;"><a [href]="e.RSVPLink">RSVP Link</a></h6>
-            <h6 *ngIf="e.Fee"style="margin-top:5px;"><u>Program Fees:</u> {{e.Fee}}</h6>
-            <h6 *ngIf="e.FeeDetails"><u>Fee Details:</u> <strong>{{e.FeeDetails}}</strong></h6>
-            <h6 *ngIf="e.FeeLink" style="margin-top:5px;"><a [href]="e.FeeLink">TICKET LINK</a></h6>            
-            <h6 *ngIf="e.FBLink"  style="margin-top:5px;"><a [href]="e.FBLink">Facebook Link</a></h6>
+            <!--h6 *ngIf="e.Fee"style="margin-top:5px;"><u>Program Fees:</u> {{e.Fee}}</h6>
+            <h6 *ngIf="e.FeeDetails"><u>Fee Details:</u> <strong>{{e.FeeDetails}}</strong></h6>-->
+            <h6 *ngIf="e.Fee"style="margin-top:5px;"> {{e.Fee}}</h6>
+            <h6 *ngIf="e.FeeDetails">{{e.FeeDetails}}</h6>
+            <h6 *ngIf="e.FeeLink" style="margin-top:5px;">{{e.FeeLink}}</h6>            
+            <h6 *ngIf="e.FBLink"  style="margin-top:5px;">{{e.FBLink}}</h6>
+            <!--h6 *ngIf="e.FeeLink" style="margin-top:5px;"><a [href]="e.FeeLink">TICKET LINK</a></h6>            
+            <h6 *ngIf="e.FBLink"  style="margin-top:5px;"><a [href]="e.FBLink">Facebook Link</a></h6-->
             <div *ngIf="e.Video" class="embed-responsive embed-responsive-16by9">
               <!--<iframe class="embed-responsive-item" [src]="e.Video"></iframe>-->
               <!--need to wrap the videoURL with trustResourceAsURL later on, for now hard code the video-->
               <iframe src="https://www.youtube.com/embed/2796TUWQXRs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>              
             </div>
             <img *ngIf="!e.Video" [src]="e.Flyer" width="100%" style="margin-top: 10"/>
+            <img *ngIf="!e.Video" [src]="e.Flyer2" width="100%" style="margin-top: 10"/>
         </span>
     </div>
   </div>
