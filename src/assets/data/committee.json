@@ -1,7 +1,7 @@
 [
     {
         "Title": "Executive Committee (ec-phillymm@googlegroups.com)",
-        "Picture": "assets/images/EC-Collage.png",
+        "Picture": "assets/images/EC-Collage",
         "Members" : [
             {
                 "role": "President",
@@ -23,25 +23,25 @@
             },
             {
                 "role": "Associate Secretary",
-                "person": "Swati Watve",
+                "person": "Ojaswinee Jog",
                 "email": "",
                 "picture":"assets/images/SW.jpg"
             },
             {
                 "role": "Treasurer",
-                "person": "Wilfred Dsouza",
+                "person": "Prasad Sawant",
                 "email": "Treasurer.PhillyMM@gmail.com",
                 "picture":"assets/images/WD.jpg"
             },
             {
                 "role": "Associate Treasurer",
-                "person": "Anuja Palsule",
+                "person": "Suhas Shelukar",
                 "email": "",
                 "picture":"assets/images/AP.jpg"
             },
             {
                 "role": "Web Team",
-                "person": "Amit Shinde, Yogesh Jamkhindikar",
+                "person": "Amit Shinde, Abhijit Shrikhande",
                 "email": "",
                 "picture":"assets/images/WebTeam-Collage.png"
             },
@@ -53,21 +53,15 @@
             },
             {
                 "role": "Community Outreach",
-                "person": "Vaishali Joglekar, Priya Joshi, Prasad Sawant, Arpana Date, Ojaswinee Jog, Geeta Shelukar",
+                "person": "Snehal Jadey, Aarti Prabhudesai, Amol Waghmare",
                 "email": "",
                 "picture":"assets/images/Outreach-collage.png"
             },
             {
                 "role": "Inventory Management",
-                "person": "Ojaswinee Jog, Arpana Date, Anuja Palsule",
+                "person": "Geeta Shelukar, Arpana Date",
                 "email": "",
                 "picture":"assets/images/Inventory-collage.png"
-            },
-            {
-                "role": "Event Venue Co-ordinator",
-                "person": "Pallavi Nadkarni",
-                "email": "",
-                "picture":""
             },
             {
                 "role": "PMM Task Force - (aka helping hands)",
@@ -79,7 +73,7 @@
     },
     {
         "Title": "Trustees",
-        "Email": "trustees-phillymm@googlegrooups.com",
+        "Email": "pmm-trustees@googlegrooups.com",
         "Members" : [
             {
                 "person":"Achyut Ratnaparkhi"   
