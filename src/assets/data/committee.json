@@ -5,73 +5,67 @@
         "Members" : [
             {
                 "role": "President",
-                "person": "Vikrant Kamble",
+                "person": "Prasad Sawant",
                 "email": "President@phillymm.org",
                 "picture":"assets/images/VK.jpg"
             },
             {
                 "role": "Vice President",
-                "person": "Rahul Palnitkar",
+                "person": "Arpana Date",
                 "email": "VicePresident.PhillyMM@gmail.com",
                 "picture":"assets/images/RP.jpg"
             },
             {
                 "role": "Secretary",
-                "person": "Gautami Joglekar",
+                "person": "Aarti Prabhudesai",
                 "email": "Secy.PhillyMM@gmail.com",
                 "picture":"assets/images/GJ.jpg"
             },
             {
                 "role": "Associate Secretary",
-                "person": "Swati Watve",
+                "person": "Ojaswinee Jog",
                 "email": "",
                 "picture":"assets/images/SW.jpg"
             },
             {
                 "role": "Treasurer",
-                "person": "Wilfred Dsouza",
+                "person": "Amit Shinde",
                 "email": "Treasurer.PhillyMM@gmail.com",
                 "picture":"assets/images/WD.jpg"
             },
             {
                 "role": "Associate Treasurer",
-                "person": "Anuja Palsule",
+                "person": "Suhas Shelukar",
                 "email": "",
                 "picture":"assets/images/AP.jpg"
             },
             {
-                "role": "Web Team",
-                "person": "Amit Shinde, Yogesh Jamkhindikar",
+                "role": "PMM IT",
+                "person": "Abhijit Shrikhande",
                 "email": "",
                 "picture":"assets/images/WebTeam-Collage.png"
             },
             {
                 "role": "BMM Liaison",
-                "person": "Ani Railkar",
+                "person": "Neeraj Joshi",
                 "email": "",
                 "picture":"assets/images/AR.jpg"
             },
             {
-                "role": "Community Outreach",
-                "person": "Vaishali Joglekar, Priya Joshi, Prasad Sawant, Arpana Date, Ojaswinee Jog, Geeta Shelukar",
+                "role": "Outreach / Matching Coordination",
+                "person": "Snehal Jadey, Pranoti Pradhan, Gopal Kalore",
                 "email": "",
                 "picture":"assets/images/Outreach-collage.png"
             },
             {
-                "role": "Inventory Management",
-                "person": "Ojaswinee Jog, Arpana Date, Anuja Palsule",
+                "role": "Inventory Leads",
+                "person": "Geeta Shelukar, Amol Waghmare",
                 "email": "",
                 "picture":"assets/images/Inventory-collage.png"
             },
             {
-                "role": "Event Venue Co-ordinator",
-                "person": "Pallavi Nadkarni",
-                "email": "",
-                "picture":""
-            },
-            {
-                "role": "PMM Task Force - (aka helping hands)",
-                "person": "Neeraj Joshi",
+                "role": "Extended Team Coordinator",
+                "person": "Vrushali Inamdar",
                 "email": "",
                 "picture":""
             }
@@ -79,7 +73,7 @@
     },
     {
         "Title": "Trustees",
-        "Email": "trustees-phillymm@googlegrooups.com",
+        "Email": "pmm-trustees@googlegrooups.com",
         "Members" : [
             {
                 "person":"Achyut Ratnaparkhi"   
