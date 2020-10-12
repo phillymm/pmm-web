@@ -38,9 +38,10 @@
       <span class="col-md-12"><h4>UPCOMING EVENTS</h4></span>
     </div>
     <div class="row" *ngIf="pmmevent && pmmevent.length > 0">
-        <span *ngFor="let e of pmmevent" class="col-md-6" style="margin-top:5px;">
-            <h5>{{e.Title}} - {{e.Date}}</h5>
-            <h6><u>Venue:</u> {{e.Venue}}</h6>
+        <div *ngFor="let e of pmmevent" class="col-md-12" style="margin-top:5px;">
+          <div class="col-md-8" style="margin-top:8px;">
+            <h4>{{e.Title}} - {{e.Date}}</h4>
+            <h5><u>Venue:</u> {{e.Venue}}</h5>
             <h6 *ngIf="e.Agenda.length > 1"><u>Event Timeline</u></h6>
             <div *ngIf="e.Agenda.length > 1">
               <div  *ngFor="let ea of e.Agenda">
@@ -48,11 +49,11 @@
                 <span>{{ea.Event}}</span>
               </div>
             </div>
-            <h6 *ngIf="e.Agenda.length == 1"><u>Event Time</u> {{e.Agenda[0].Time}}</h6>
+            <h6 *ngIf="e.Agenda.length > 1"><u>Event Time</u> {{e.Agenda[0].Time}}</h6>
             <h6 *ngIf="e.RSVPLink" style="margin-top:5px;"><a [href]="e.RSVPLink">RSVP Link</a></h6>
             <!--h6 *ngIf="e.Fee"style="margin-top:5px;"><u>Program Fees:</u> {{e.Fee}}</h6>
             <h6 *ngIf="e.FeeDetails"><u>Fee Details:</u> <strong>{{e.FeeDetails}}</strong></h6>-->
-            <h6 *ngIf="e.Fee"style="margin-top:5px;"> {{e.Fee}}</h6>
+            <h6 *ngIf="e.Fee"style="margin-top:5px;"><u>Program Fees:</u> {{e.Fee}}</h6>
             <h6 *ngIf="e.FeeDetails">{{e.FeeDetails}}</h6>
             <h6 *ngIf="e.FeeLink" style="margin-top:5px;">{{e.FeeLink}}</h6>            
             <h6 *ngIf="e.FBLink"  style="margin-top:5px;">{{e.FBLink}}</h6>
@@ -63,15 +64,18 @@
               <!--need to wrap the videoURL with trustResourceAsURL later on, for now hard code the video-->
               <iframe src="https://www.youtube.com/embed/2796TUWQXRs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>              
             </div>
-            <img *ngIf="!e.Video" [src]="e.Flyer" width="100%" style="margin-top: 10"/>
+            <img *ngIf="!e.Video" [src]="e.Flyer" width="60%" style="margin-top: 10"/>
             <!--img *ngIf="!e.Video" [src]="e.Flyer2" width="100%" style="margin-top: 10"/-->
-        </span>
-    </div>
+          </div>
+        </div>
+      </div>
   </div>
   <div class="pmm-jumbotron" style="margin-top:5px;margin-bottom: 15px;">
     <div class="row" >
         <span class="col-md-12"  style="font-weight: bold; font-size:large;">
           Want to bring a great show to us. Submit your proposal here: <a href="https://goo.gl/forms/i8Q3Rb1xj0PGQmXg2">PMM Program Proposal Solicitation Portal</a>
+          <br/>
+          To notify us or for any further questions, please contact <a href = "mailto:Secy.PhillyMM@gmail.com">Secy.PhillyMM@gmail.com</a>
         </span>
       </div>
 </div>

@@ -1,16 +1,29 @@
 [       
 	{
-        "Title": "Updates are coming soon...",
-        "RSVPLink": "",        
+        "Title": "सरस्वतीची लेक-बहिणाबाई चौधरींचा काव्यप्रवास",
+        "RSVPLink": "https://www.tugoz.com/streams/bmm/NA-BMM",        
         "FBLink": "",        
-        "Fee": "",
+        "Fee": "$5.00",
         "FeeDetails": "",
         "FeeLink": "",
-        "Date" : "",
+        "Date" : "10/17/2020 8:00 PM",
         "Agenda": [            
                ],        
+        "Flyer": "assets/images/bahinabaiprg.png",
+        "Venue": "Online Event",
+        "Video" : ""  
+    },
+    {
+        "Title": "PMM ART Workshop",
+        "RSVPLink": "https://docs.google.com/forms/d/1UfoFLYokWHbCeElVAkLAASEdaYWOSjVTSvkJVvR7Nqc/viewform",        
+        "FBLink": "",        
+        "Fee": "$0.00",
+        "FeeDetails": "",
+        "FeeLink": "",
+        "Date" : "10/18/2020 5:00 PM",
+        "Agenda": [ ],        
         "Flyer": "",
-        "Venue": "",
+        "Venue": "Online Event.",
         "Video" : ""  
     }
 ]
