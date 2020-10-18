@@ -11,19 +11,35 @@
                ],        
         "Flyer": "assets/images/bahinabaiprg.png",
         "Venue": "Online Event",
-        "Video" : ""  
+        "Video" : "",
+        "SurveyLink":""  
     },
     {
-        "Title": "PMM ART Workshop",
-        "RSVPLink": "https://docs.google.com/forms/d/1UfoFLYokWHbCeElVAkLAASEdaYWOSjVTSvkJVvR7Nqc/viewform",        
+        "Title": "Concert for Cause",
+        "RSVPLink": "xxx",        
         "FBLink": "",        
         "Fee": "$0.00",
         "FeeDetails": "",
         "FeeLink": "",
-        "Date" : "10/18/2020 5:00 PM",
+        "Date" : "10/31/2020 8:30 PM",
         "Agenda": [ ],        
-        "Flyer": "",
+        "Flyer": "assets/images/KallolProgram.png",
         "Venue": "Online Event.",
-        "Video" : ""  
+        "Video" : "",
+        "SurveyLink" : ""
+    },
+    {
+        "Title": "[Survey] Kids Activity - Learn basics of HTML and Website design",
+        "RSVPLink": "",        
+        "FBLink": "",        
+        "Fee": "$0.00",
+        "FeeDetails": "",
+        "FeeLink": "",
+        "Date" : "TBD",
+        "Agenda": [ ],        
+        "Flyer": "assets/images/FillTheSurvey.jpg",
+        "Venue": "Online Event.",
+        "Video" : "",
+        "SurveyLink" : "https://docs.google.com/forms/d/1MwkM8G6y29G5kOedUbu12swzIzfziZFlKcAZb9QC1_Q/viewform"
     }
 ]
