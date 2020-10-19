@@ -61,13 +61,14 @@
             <!--h6 *ngIf="e.FeeLink" style="margin-top:5px;"><a [href]="e.FeeLink">TICKET LINK</a></h6>            
             <h6 *ngIf="e.FBLink"  style="margin-top:5px;"><a [href]="e.FBLink">Facebook Link</a></h6-->
             <div *ngIf="e.Video" class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" [src]="e.Video"></iframe>
+              <iframe class="embed-responsive-item" [src]="e.Video | safeurl" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <!--need to wrap the videoURL with trustResourceAsURL later on, for now hard code the video-->
               <!--<iframe src="https://www.youtube.com/embed/2796TUWQXRs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
               </iframe>-->              
             </div>
             <img *ngIf="!e.Video" [src]="e.Flyer" width="60%" style="margin-top: 10"/>
             <!--img *ngIf="!e.Video" [src]="e.Flyer2" width="100%" style="margin-top: 10"/-->
+            <hr class="col-xs-12"/>
           </div>
         </div>
       </div>

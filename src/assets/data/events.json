@@ -16,7 +16,7 @@
     },
     {
         "Title": "Concert for Cause",
-        "RSVPLink": "xxx",        
+        "RSVPLink": "",        
         "FBLink": "",        
         "Fee": "$0.00",
         "FeeDetails": "",
@@ -25,7 +25,7 @@
         "Agenda": [ ],        
         "Flyer": "assets/images/KallolProgram.png",
         "Venue": "Online Event.",
-        "Video" : "",
+        "Video" : "https://www.youtube.com/embed/QQwQEeRDqLw",
         "SurveyLink" : ""
     },
     {
