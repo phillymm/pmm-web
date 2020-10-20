@@ -10,7 +10,7 @@ import { NewToPhillyComponent } from './new-to-philly/new-to-philly.component';
 import { CommitteeComponent } from './committee/committee.component';
 import { FaqComponent } from './faq/faq.component';
 import { MerchandiseComponent } from './merchandise/merchandise.component';
-
+import { CookiePolicyComponent } from './cookiepolicy/cookiepolicy.component';
 export const routes: Routes = [
     {
       path: '',
@@ -52,6 +52,10 @@ export const routes: Routes = [
     {
       path: 'faq',
       component: FaqComponent
+    },
+    {
+      path: 'cookiepolicy',
+      component: CookiePolicyComponent
     },
     { path: '**', component: PageNotFoundComponent }
 ];

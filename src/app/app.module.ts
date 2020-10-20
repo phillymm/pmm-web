@@ -18,6 +18,7 @@ import { HeaderComponent } from './header/header.component';
 import { MerchandiseComponent } from './merchandise/merchandise.component';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { CommonPdfViewerComponent } from './common-pdf-viewer/common-pdf-viewer.component';
+import { CookiePolicyComponent } from './cookiepolicy/cookiepolicy.component';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { CommonPdfViewerComponent } from './common-pdf-viewer/common-pdf-viewer.
     PhotoVideoComponent,
     HeaderComponent,
     MerchandiseComponent,
-    CommonPdfViewerComponent
+    CommonPdfViewerComponent,
+    CookiePolicyComponent
   ],
   imports: [
     BrowserModule,

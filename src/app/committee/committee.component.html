@@ -18,11 +18,19 @@
                         {{cm.email}}
                 </span>
             </div> 
+            <br/>
+            <div *ngIf="c.Intro" class="row" style="text-align: left;font-weight: bolder;">
+                <span>&nbsp;&nbsp;&nbsp;PMM EC (2020-2022)- Introduction Details &nbsp;</span>
+                <span style="background-color: gold"><a href="{{c.Intro}}" target="_blank">Click here.
+                    </a></span>
+            </div>
             <!--Temporarily hiding picture till new picture is received 08/24/2020-->
-            <!--
-            <div *ngIf="c.Picture" class="col-md-12">
-                <img [src]=c.Picture width="100%">
-            </div>-->
+            
+            <div *ngIf="c.Picture" class="col-md-12" style="padding:1em">
+                <img [src]=c.Picture width="100%" />
+                
+            </div>
+
         </div>
       </div>
 </section>
