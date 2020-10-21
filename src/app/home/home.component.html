@@ -49,6 +49,11 @@
                 <span>{{ea.Event}}</span>
               </div>
             </div>
+            <div *ngIf="e.ProgramDescription.length > 1" class="container-fluid"><b>Description:</b> {{e.ProgramDescription}}</div>
+            <h6 *ngIf="e.ProgramLink" style="margin-top:5px;">
+              Program Link : <a [href]="e.ProgramLink">Will be shared soon...</a>
+            </h6>
+           
             <h6 *ngIf="e.Agenda.length > 1"><u>Event Time</u> {{e.Agenda[0].Time}}</h6>
             <h6 *ngIf="e.RSVPLink" style="margin-top:5px;"><a [href]="e.RSVPLink">RSVP Link</a></h6>
             <h6 *ngIf="e.SurveyLink" style="margin-top:5px;"><a [href]="e.SurveyLink">Survey Link</a></h6>

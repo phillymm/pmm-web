@@ -1,21 +1,8 @@
 [       
-	{
-        "Title": "सरस्वतीची लेक-बहिणाबाई चौधरींचा काव्यप्रवास",
-        "RSVPLink": "https://www.tugoz.com/streams/bmm/NA-BMM",        
-        "FBLink": "",        
-        "Fee": "$5.00",
-        "FeeDetails": "",
-        "FeeLink": "",
-        "Date" : "10/17/2020 8:00 PM",
-        "Agenda": [            
-               ],        
-        "Flyer": "assets/images/bahinabaiprg.png",
-        "Venue": "Online Event",
-        "Video" : "",
-        "SurveyLink":""  
-    },
+	
     {
         "Title": "Concert for Cause",
+        "ProgramDescription" : "PMM is Co-hosting another Classical Musical concert Concert for Cause  in collaboration with Kallol Entertainment. \n This concert will be on Oct 31st 2020 @ 8:30 PM EST. Free to join for all.\n Artists: Shri. Krishna Bongane, (disciple of Ustad Rashid Khan) , \n Ms. Ankita Joshi (disciple of Sangeet Martand late Pandit Jasraj).\n They will be accompanied by Shri. Prasad Padhye (Tabla),  \n Shri. Niranjan Lele (Harmonium), \n Shri. Viju Tambe  (Flute), \n Shri. Madhukar Dongade (Pakhawaj) and  Shri. Suryakant Surve (Side Rhythm / Percussion).",
         "RSVPLink": "",        
         "FBLink": "",        
         "Fee": "$0.00",
@@ -26,10 +13,12 @@
         "Flyer": "assets/images/KallolProgram.png",
         "Venue": "Online Event.",
         "Video" : "https://www.youtube.com/embed/QQwQEeRDqLw",
-        "SurveyLink" : ""
+        "SurveyLink" : "",
+        "ProgramLink": "Will be shared soon..."
     },
     {
         "Title": "[Survey] Kids Activity - Learn basics of HTML and Website design",
+        "ProgramDescription":"",
         "RSVPLink": "",        
         "FBLink": "",        
         "Fee": "$0.00",
@@ -40,6 +29,7 @@
         "Flyer": "assets/images/FillTheSurvey.jpg",
         "Venue": "Online Event.",
         "Video" : "",
-        "SurveyLink" : "https://docs.google.com/forms/d/1MwkM8G6y29G5kOedUbu12swzIzfziZFlKcAZb9QC1_Q/viewform"
+        "SurveyLink" : "https://docs.google.com/forms/d/1MwkM8G6y29G5kOedUbu12swzIzfziZFlKcAZb9QC1_Q/viewform",
+        "ProgramLink": ""
     }
 ]
