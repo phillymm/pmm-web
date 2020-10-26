@@ -4,7 +4,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { HomeComponent } from './home/home.component';
+import { HomeComponent, SafeurlPipe } from './home/home.component';
 import { MembershipComponent } from './membership/membership.component';
 import { AboutComponent } from './about/about.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
@@ -36,7 +36,8 @@ import { CookiePolicyComponent } from './cookiepolicy/cookiepolicy.component';
     HeaderComponent,
     MerchandiseComponent,
     CommonPdfViewerComponent,
-    CookiePolicyComponent
+    CookiePolicyComponent,
+    SafeurlPipe
   ],
   imports: [
     BrowserModule,

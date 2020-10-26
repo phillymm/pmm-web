@@ -15,4 +15,7 @@ export class PMMEvent {
     Venue: '';
     Flyer: '';
     Video: '';
+    SurveyLink:'';
+    ProgramDescription:'';
+    ProgramLink:'';
 }
