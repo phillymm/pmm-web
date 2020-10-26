@@ -37,11 +37,43 @@
     <div class="row" *ngIf="pmmevent && pmmevent.length > 0">
       <span class="col-md-12"><h4>UPCOMING EVENTS</h4></span>
     </div>
+<div class="row">
+  <div class="col-md-8" style="margin-top:8px;">
+    <h4>Diwali Sandhya Virtual Show - Tuzi Aathavan - Musical Poetic Journey - 11/07/2020 8:30 PM</h4>
+    <div class="container-fluid">
+        <div><b>Artists</b>: Vaibhav Joshi, Sawani Shende with renowned musicians</div>
+      <div><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/w_Od7Zg8iN0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <div><img src="assets/images/TuzhiAathwan.png"/></div>
+    </div>
+  </div>
+  
+  <div class="col-md-8" style="margin-top:8px;">
+    <hr class="col-xs-12"/>
+    <h4>Diwali Faral Purchase with Special Discount for PMM members</h4>
+    <div class="container-fluid">
+        <div>Due to the current pandemic situation, PMM has arranged for members to purchase faral directly from Suma Foods as PMM will not be giving free Faral this year. 
+          <br/>  
+          Discount is applicable to first 150 PMM orders OR until November 21st, whichever comes first. 
+          <br/> 
+          Faral box containing 150 gm chivda, 150 gm shankarpali, 4 chakalis, 2 karanjis, 4 ladoos
+          Original price per box = $20 + shipping. <br/>
+          PMM discounted price per box = $15 plus shipping<br/>
+          Maximum 2 boxes per household order
+          <br/>
+          Use the following PMM link for discount: <a href="https://go.tabarn.app/r/QbyH">https://go.tabarn.app/r/QbyH</a>  
+          Discount price of $15 will show once you select the delivery date and proceed to checkout<br/>
+          Please contact Suma Foods directly for any questions, concerns or issues since this activity is not handled by PMM</div>
+    </div>
+  </div>      
+</div>
+
     <div class="row" *ngIf="pmmevent && pmmevent.length > 0">
         <div *ngFor="let e of pmmevent" class="col-md-12" style="margin-top:5px;">
+          
           <div class="col-md-8" style="margin-top:8px;">
-            <h4>{{e.Title}} - {{e.Date}}</h4>
-            <h5><u>Venue:</u> {{e.Venue}}</h5>
+            <hr class="col-xs-12"/> 
+            <h4>{{e.Title}}  <span *ngIf="e.Date.length > 1"> - {{e.Date}}</span></h4>
+            <h5 *ngIf="e.Venue.length > 1"  ><u>Venue:</u> {{e.Venue}}</h5>
             <h6 *ngIf="e.Agenda.length > 1"><u>Event Timeline</u></h6>
             <div *ngIf="e.Agenda.length > 1">
               <div  *ngFor="let ea of e.Agenda">
@@ -50,7 +82,7 @@
               </div>
             </div>
             <div *ngIf="e.ProgramDescription.length > 1" class="container-fluid"><b>Description:</b> {{e.ProgramDescription}}</div>
-            <h6 *ngIf="e.ProgramLink" style="margin-top:5px;">
+            <h6 *ngIf="e.ProgramLink.length > 1" style="margin-top:5px;">
               Program Link : <a [href]="e.ProgramLink">Will be shared soon...</a>
             </h6>
            
@@ -73,7 +105,6 @@
             </div>
             <img *ngIf="!e.Video" [src]="e.Flyer" width="60%" style="margin-top: 10"/>
             <!--img *ngIf="!e.Video" [src]="e.Flyer2" width="100%" style="margin-top: 10"/-->
-            <hr class="col-xs-12"/>
           </div>
         </div>
       </div>
