@@ -34,19 +34,13 @@
         </div>
   </div>
   <div class="pmm-jumbotron" style="margin-top:5px;margin-bottom: 15px;">
+    <div class="row" class="col-md-12" style="color: rgb(144, 123, 221);" >
+      <span class="text-center pagination-centered"><img src="assets/images/DiwaliGreeting.jpeg"/></span>
+    </div>
     <div class="row" *ngIf="pmmevent && pmmevent.length > 0">
       <span class="col-md-12"><h4>UPCOMING EVENTS</h4></span>
     </div>
 <div class="row">
-  <div class="col-md-8" style="margin-top:8px;">
-    <h4>Diwali Sandhya Virtual Show - Tuzi Aathavan - Musical Poetic Journey - 11/07/2020 8:30 PM</h4>
-    <div class="container-fluid">
-        <div><b>Artists</b>: Vaibhav Joshi, Sawani Shende with renowned musicians</div>
-      <div><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/w_Od7Zg8iN0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-      <div><img src="assets/images/TuzhiAathwan.png"/></div>
-    </div>
-  </div>
-  
   <div class="col-md-8" style="margin-top:8px;">
     <hr class="col-xs-12"/>
     <h4>Diwali Faral Purchase with Special Discount for PMM members</h4>
@@ -81,7 +75,7 @@
                 <span>{{ea.Event}}</span>
               </div>
             </div>
-            <div *ngIf="e.ProgramDescription.length > 1" class="container-fluid"><b>Description:</b> {{e.ProgramDescription}}</div>
+            <div *ngIf="e.ProgramDescription.length > 1" class="container-fluid"><b>Description:</b> <span [innerHTML]="e.ProgramDescription"></span></div>
             <h6 *ngIf="e.ProgramLink.length > 1" style="margin-top:5px;">
               Program Link : <a [href]="e.ProgramLink">Will be shared soon...</a>
             </h6>
