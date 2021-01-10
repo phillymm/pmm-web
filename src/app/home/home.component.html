@@ -34,9 +34,11 @@
         </div>
   </div>
   <div class="pmm-jumbotron" style="margin-top:5px;margin-bottom: 15px;">
-    <div class="row" class="col-md-12" style="color: rgb(144, 123, 221);" >
+    <!--Getting rid of Diwali Poster
+      <div class="row" class="col-md-12" style="color: rgb(144, 123, 221);" >
       <span class="text-center pagination-centered"><img src="assets/images/DiwaliGreeting.jpeg"/></span>
     </div>
+  -->
     <div class="row" *ngIf="pmmevent && pmmevent.length > 0">
       <span class="col-md-12"><h4>UPCOMING EVENTS</h4></span>
     </div>
@@ -60,7 +62,7 @@
             </div>
             <div *ngIf="e.ProgramDescription.length > 1" class="container-fluid"><b>Description:</b> <span [innerHTML]="e.ProgramDescription"></span></div>
             <h6 *ngIf="e.ProgramLink.length > 1" style="margin-top:5px;">
-              Program Link : <a [href]="e.ProgramLink">Will be shared soon...</a>
+              Program Link : <a [href]="e.ProgramLink">{{e.ProgramLink}}</a>
             </h6>
            
             <h6 *ngIf="e.Agenda.length > 1"><u>Event Time</u> {{e.Agenda[0].Time}}</h6>
