@@ -19,14 +19,14 @@ export class MembershipComponent implements OnInit {
     .subscribe(res => {
       this.membershipTypes = res;
       this.selMType = this.membershipTypes[0].divid;
-      this.selPType = 'Automatic Renewal';
-      this.payTypes = ['Automatic Renewal', 'One-time Payment'];
+      this.selPType = 'One-time Payment';
+      this.payTypes = ['One-time Payment'];
     });
   }
 
   changeMembershipView(target: HTMLSelectElement) {
     this.selMType = target.value;
-    this.selPType = 'Automatic Renewal';
+    this.selPType = 'One-time Payment';
   }
 
   payTypeChanged(target: HTMLSelectElement) {

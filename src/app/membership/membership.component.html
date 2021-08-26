@@ -23,7 +23,7 @@
         </select>
     </div>
 
-    <!-- Paypal integration for memebership-->   
+    <!-- Paypal integration for membership-->   
     <div *ngIf="selMType == 'dElite'" id="dElite" class="wsb-htmlsnippet-element" style="margin: 15px 0 15px 0;width:100%">
         <table class="table table-striped">
             <thead >
@@ -47,72 +47,6 @@
                 </tr>
             </thead>
             <tbody>   
-                <tr>
-                    <th scope="row">Grand Patron</th>                    
-                    <td>Grand Patron. <ul>
-                            <li>Patron membership for current year. (<strong>$100 value</strong>)</li>
-                            <li>Twice the number of Patron level PMM Merchandise as thank you gifts (<strong>$50 value</strong>)</li>
-                            <li>Reserved Seating</li>
-                            <li>Special Registration Counter </li>
-                            <li>Free entry to all PMM arranged / sponsor programs (upto 4 tickets)  (<strong>$80 value</strong>) </li>
-                            <li>Opportunity to promote business via a banner or standee at every event</li>
-                            <li>Patron family name acknowledgement / Special Message / Thank you announcement at every event at your discretion</li>
-                            <li><strong>Opportunity to felicitate visiting artist(s) at at least one event</strong></li>                            
-                            <li>Thank you announcement during every event</li>
-                            <li>Lunch / Dinner / Snacks Included</li>
-                            <li><strong>RSVP to the event is NOT required</strong></li>       
-                            <li><strong>Portion of this sponsorship will be put towards classical music concert funds.</strong> This will allows us to host high quality concerts when artists are visiting from India. Details on this fund will be shared later.</li>       
-                            <li><strong>Portion of this sponsorship will be put towards organizing youth events to benefit next generation of Marathi kids. </strong>Details on this fund will be shared later.</li>       
-                    </ul></td>
-                    <td>
-                        <div *ngIf="selPType=='Automatic Renewal'">
-                                <ul>
-                                    <li><strong>$599</strong></li>
-                                    <li>Membership will be automatically renewed after one year</li>
-                                    <li>
-                                        To cancel automatic renewal after making a payment, click on the Unsubscribe button                                    
-                                    </li>
-                                    <li>
-                                        Another alternative to cancelling automatic renewal after making a payment is to send an email to Treasurer.PhillyMM@gmail.com. Include your name and email address used in the PayPal transaction. PMM will cancel the auto renewal from PMM's side.
-                                    </li>
-                                </ul>
-                        </div>  
-                        <div *ngIf="selPType=='One-time Payment'">
-                                <ul>
-                                    <li><strong>$599</strong></li>
-                                </ul>
-                        </div>                        
-                    </td>
-                    <td style="text-align: center">
-                        <div  *ngIf="selPType=='Automatic Renewal'">
-                        <form ngNoForm action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="QBSHBVQ3K499U">
-                            <table>
-                            <tr><td><input type="hidden" name="on0" value="First Name">First Name</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
-                            <tr><td><input type="hidden" name="on1" value="Last Name">Last Name</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
-                            </table>
-                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                        </form>
-                        <A HREF="https://www.paypal.com/cgi-bin/webscr?cmd=_subscr-find&alias=GW4ZBDCGJTHG2">
-                        <IMG SRC="https://www.paypalobjects.com/en_US/i/btn/btn_unsubscribe_LG.gif" BORDER="0">
-                        </A>
-                        </div>
-                        <div *ngIf="selPType=='One-time Payment'">
-                            <form ngNoForm action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                                <input type="hidden" name="cmd" value="_s-xclick">
-                                <input type="hidden" name="hosted_button_id" value="XAWENPW2Z4DVN">
-                                <table>
-                                <tr><td><input type="hidden" name="on0" value="First Name">First Name</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
-                                <tr><td><input type="hidden" name="on1" value="Last Name">Last Name</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
-                                </table>
-                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                            </form>
-                        </div>
-                    </td>
-                </tr>
             </tbody>
         </table>
     </div>
@@ -140,147 +74,11 @@
                 </tr>
             </thead>
             <tbody>        
+               
                 <tr>
-                    <th scope="row">Grand Patron Family</th>                    
-                    <td>Grand Patron. <ul>
-                            <li>Patron membership for current year. (<strong>$100 value</strong>)</li>
-                            <li>Twice the number of Patron level PMM Merchandise as thank you gifts (<strong>$50 value</strong>)</li>
-                            <li>Reserved Seating</li>
-                            <li>Special Registration Counter </li>
-                            <li>Free entry to all PMM arranged / sponsor programs (upto 4 tickets)  (<strong>$80 value</strong>) </li>
-                            <li>Opportunity to promote business via a banner or standee at every event</li>
-                            <li>Patron family name acknowledgement / Special Message / Thank you announcement at every event at your discretion</li>
-                            <li><strong>Opportunity to felicitate visiting artist(s) at at least one event</strong></li>                            
-                            <li>Thank you announcement during every event</li>
-                            <li>Lunch / Dinner / Snacks Included</li>
-                            <li><strong>RSVP to the event is NOT required</strong></li>       
-                            <li><strong>Portion of this sponsorship will be put towards classical music concert funds.</strong> This will allows us to host high quality concerts when artists are visiting from India. Details on this fund will be shared later.</li>       
-                            <li><strong>Portion of this sponsorship will be put towards organizing youth events to benefit next generation of Marathi kids. </strong>Details on this fund will be shared later.</li>       
-                    </ul></td>
-                    <td>
-                        <div *ngIf="selPType=='Automatic Renewal'">
-                                <ul>
-                                    <li><strong>$599</strong></li>
-                                    <li>Membership will be automatically renewed after one year</li>
-                                    <li>
-                                        To cancel automatic renewal after making a payment, click on the Unsubscribe button                                    
-                                    </li>
-                                    <li>
-                                        Another alternative to cancelling automatic renewal after making a payment is to send an email to Treasurer.PhillyMM@gmail.com. Include your name and email address used in the PayPal transaction. PMM will cancel the auto renewal from PMM's side.
-                                    </li>
-                                </ul>
-                        </div>  
-                        <div *ngIf="selPType=='One-time Payment'">
-                                <ul>
-                                    <li><strong>$599</strong></li>
-                                </ul>
-                        </div>                        
-                    </td>
-                    <td style="text-align: center">
-                        <div  *ngIf="selPType=='Automatic Renewal'">
-                        <form ngNoForm action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="QBSHBVQ3K499U">
-                            <table>
-                            <tr><td><input type="hidden" name="on0" value="First Name">First Name</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
-                            <tr><td><input type="hidden" name="on1" value="Last Name">Last Name</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
-                            </table>
-                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                        </form>
-                        <A HREF="https://www.paypal.com/cgi-bin/webscr?cmd=_subscr-find&alias=GW4ZBDCGJTHG2">
-                        <IMG SRC="https://www.paypalobjects.com/en_US/i/btn/btn_unsubscribe_LG.gif" BORDER="0">
-                        </A>
-                        </div>
-                        <div *ngIf="selPType=='One-time Payment'">
-                            <form ngNoForm action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                                <input type="hidden" name="cmd" value="_s-xclick">
-                                <input type="hidden" name="hosted_button_id" value="Z877VXPA49E4Q">
-                                <table>
-                                <tr><td><input type="hidden" name="on0" value="First Name">First Name</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
-                                <tr><td><input type="hidden" name="on1" value="Last Name">Last Name</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
-                                </table>
-                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                            </form>
-                        </div>
-                    </td>
-                </tr>           
-                <tr>
-                    <th scope="row">Patron Family</th>                    
-                    <td>Patron Family with kids. Special privileges at events.
-                        <ul>
-                            <li>PMM Merchandise as Thank you Gift (<strong>$50 value</strong>) </li>
-                            <li>50% Discount for guest program tickets (upto 4 tickets in a year)  (<strong>$40 value</strong>)</li>
-                            <li>Preferred seating </li>
-                            <li>Special Registration Counter </li>
-                            
-                            <li>Patron family name acknowledgement / Special Message / Thank you announcement during 1 event at your discretion</li>
-                            
-                            <li>Free Access to 5 to 6 PMM sponsored events </li>
-                            <li>Lunch / Dinner / Snacks Included</li>
-                            <li>RSVP to the event is mandatory</li>
-                        </ul>
-                    </td>
-                    <td>   
-                        <div *ngIf="selPType=='Automatic Renewal'">                     
-                        <ul>
-                            <li><strong>$279 = $180(Regular Fees) + $99(Patron Fees)</strong></li>
-                            <li>Membership will be automatically renewed after one year</li>
-                            <li>
-                                To cancel automatic renewal after making a payment, click on the Unsubscribe button                                
-                            </li>
-                            <li>
-                                Another alternative to cancelling automatic renewal after making a payment is to send an email to Treasurer.PhillyMM@gmail.com. Include your name and email address used in the PayPal transaction. PMM will cancel the auto renewal from PMM's side.
-                            </li>
-                        </ul> 
-                        </div>
-
-                        <div *ngIf="selPType=='One-time Payment'">
-                                <ul>
-                                <li><strong>$279 = $180(Regular Fees) + $99(Patron Fees)</strong></li>
-                                </ul>
-                        </div>
-                    </td>
-                    <td style="text-align: center">
-                        <div *ngIf="selPType=='Automatic Renewal'">
-                        <form ngNoForm action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="QBSHBVQ3K499U">
-                            <table>
-                            <tr><td><input type="hidden" name="on0" value="First Name">First Name</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
-                            <tr><td><input type="hidden" name="on1" value="Last Name">Last Name</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
-                            </table>
-                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-
-                        </form>
-                        <A HREF="https://www.paypal.com/cgi-bin/webscr?cmd=_subscr-find&alias=GW4ZBDCGJTHG2">
-                            <IMG SRC="https://www.paypalobjects.com/en_US/i/btn/btn_unsubscribe_LG.gif" BORDER="0">
-                        </A>                              
-                        </div> 
-                        <div *ngIf="selPType=='One-time Payment'">
-                            <form ngNoForm action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                                <input type="hidden" name="cmd" value="_s-xclick">
-                                <input type="hidden" name="hosted_button_id" value="Z877VXPA49E4Q">
-                                <table>
-                                <tr><td><input type="hidden" name="on0" value="First Name">First Name</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
-                                <tr><td><input type="hidden" name="on1" value="Last Name">Last Name</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
-                                </table>
-                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                                
-                            </form>
-                                
-                        </div>
-
-                    </td>
-                </tr>
-                <tr>
-                    <th scope="row">Regular Family</th>                    
+                    <th scope="row">Family</th>                    
                     <td>Family with kids
                         <ul>
-                            <li>PMM Merchandise as thank you gifts (<strong>$17 value</strong>) </li>
                             <li>Free Access to 5 to 6 PMM events </li>
                             <li>Lunch / Dinner / Snacks Included</li>
                             <li>RSVP to the event is mandatory</li>
@@ -339,142 +137,9 @@
                     </td>
                 </tr> 
                 <tr>
-                    <th scope="row">Grand Patron Family without kids</th>                    
-                    <td>Grand Patron Family without kids. <ul>
-                            <li>Patron membership for current year. (<strong>$100 value</strong>)</li>
-                            <li>Twice the number of Patron level PMM Merchandise as thank you gifts (<strong>$50 value</strong>)</li>
-                            <li>Reserved Seating</li>
-                            <li>Special Registration Counter </li>
-                            <li>Free entry to all PMM arranged / sponsor programs (upto 4 tickets)  (<strong>$80 value</strong>) </li>
-                            <li>Opportunity to promote business via a banner or standee at every event</li>
-                            <li>Patron family name acknowledgement / Special Message / Thank you announcement at every event at your discretion</li>
-                            <li><strong>Opportunity to felicitate visiting artist(s) at at least one event</strong></li>                            
-                            <li>Thank you announcement during every event</li>
-                            <li>Lunch / Dinner / Snacks Included</li>
-                            <li><strong>RSVP to the event is NOT required</strong></li>       
-                            <li><strong>Portion of this sponsorship will be put towards classical music concert funds.</strong> This will allows us to host high quality concerts when artists are visiting from India. Details on this fund will be shared later.</li>       
-                            <li><strong>Portion of this sponsorship will be put towards organizing youth events to benefit next generation of Marathi kids. </strong>Details on this fund will be shared later.</li>       
-                    </ul></td>
-                    <td>
-                        <div *ngIf="selPType=='Automatic Renewal'">
-                                <ul>
-                                    <li><strong>$599</strong></li>
-                                    <li>Membership will be automatically renewed after one year</li>
-                                    <li>
-                                        To cancel automatic renewal after making a payment, click on the Unsubscribe button                                    
-                                    </li>
-                                    <li>
-                                        Another alternative to cancelling automatic renewal after making a payment is to send an email to Treasurer.PhillyMM@gmail.com. Include your name and email address used in the PayPal transaction. PMM will cancel the auto renewal from PMM's side.
-                                    </li>
-                                </ul>
-                        </div>  
-                        <div *ngIf="selPType=='One-time Payment'">
-                                <ul>
-                                    <li><strong>$599</strong></li>
-                                </ul>
-                        </div>                        
-                    </td>
-                    <td style="text-align: center">
-                        <div  *ngIf="selPType=='Automatic Renewal'">
-                        <form ngNoForm action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="PNMLX7Y5HJQPN">
-                            <table>
-                            <tr><td><input type="hidden" name="on0" value="First Name">First Name</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
-                            <tr><td><input type="hidden" name="on1" value="Last Name">Last Name</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
-                            </table>
-                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                        </form>
-                        <A HREF="https://www.paypal.com/cgi-bin/webscr?cmd=_subscr-find&alias=GW4ZBDCGJTHG2">
-                            <IMG SRC="https://www.paypalobjects.com/en_US/i/btn/btn_unsubscribe_LG.gif" BORDER="0">
-                        </A>                            
-                        </div>
-                        <div *ngIf="selPType=='One-time Payment'">
-                            <form ngNoForm action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                                <input type="hidden" name="cmd" value="_s-xclick">
-                                <input type="hidden" name="hosted_button_id" value="RL83FSEJ732YU">
-                                <table>
-                                <tr><td><input type="hidden" name="on0" value="First Name">First Name</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
-                                <tr><td><input type="hidden" name="on1" value="Last Name">Last Name</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
-                                </table>
-                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                            </form>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <th scope="row">Patron Family without kids</th>                    
-                    <td>Patron Family without kids. Special privileges at events.
+                    <th scope="row">Family without kids /<br/> Single Parent with kids</th>                    
+                    <td>Family without kids / Single Parent with kids
                         <ul>
-                            <li>PMM Merchandise as Thank you Gift ($42 value) </li>
-                            <li>50% Discount for guest program tickets (upto 4 tickets in a year)  ($40 value)</li>
-                            <li>Preferred seating </li>
-                            <li>Special Registration Counter </li>
-                            
-                            <li>Patron family name acknowledgement / Special Message / Thank you announcement during 1 event at your discretion</li>
-                            
-                            <li>Free Access to 5 to 6 PMM sponsored events </li>
-                            <li>Lunch / Dinner / Snacks Included</li>
-                            <li>RSVP to the event is mandatory</li>
-                        </ul>
-                    </td>
-                    <td>
-                        <div *ngIf="selPType=='Automatic Renewal'">
-                        <ul>
-                            <li><strong>$229 = $150(Regular Fees) + $79(Patron Fees)</strong></li>
-                            <li>Membership will be automatically renewed after one year</li>
-                            <li>
-                                To cancel automatic renewal after making a payment, click on the Unsubscribe button                                
-                            </li>
-                            <li>
-                                Another alternative to cancelling automatic renewal after making a payment is to send an email to Treasurer.PhillyMM@gmail.com. Include your name and email address used in the PayPal transaction. PMM will cancel the auto renewal from PMM's side.
-                            </li>
-                        </ul>  
-                        </div>
-                        <div *ngIf="selPType=='One-time Payment'">
-                            <ul>
-                            <li><strong>$229 = $150(Regular Fees) + $79(Patron Fees)</strong></li>
-                            </ul>
-                        </div>
-                    </td>
-                    <td style="text-align: center">
-                        <div *ngIf="selPType=='Automatic Renewal'">
-                        <form ngNoForm action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="F36J4H7PC8FDA">
-                            <table>
-                            <tr><td><input type="hidden" name="on0" value="First Name">First Name</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
-                            <tr><td><input type="hidden" name="on1" value="Last Name">Last Name</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
-                            </table>
-                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                        </form>
-                        <A HREF="https://www.paypal.com/cgi-bin/webscr?cmd=_subscr-find&alias=GW4ZBDCGJTHG2">
-                        <IMG SRC="https://www.paypalobjects.com/en_US/i/btn/btn_unsubscribe_LG.gif" BORDER="0">
-                        </A>  
-                        </div>
-                        <div ngNoForm *ngIf="selPType=='One-time Payment'">
-                        <form ngNoForm action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                        <input type="hidden" name="cmd" value="_s-xclick">
-                        <input type="hidden" name="hosted_button_id" value="4JZWEWCVVPNRQ">
-                        <table>
-                        <tr><td><input type="hidden" name="on0" value="First Name">First Name</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
-                        <tr><td><input type="hidden" name="on1" value="Last Name">Last Name</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
-                        </table>
-                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                        </form>
-                                
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <th scope="row">Regular Family without kids</th>                    
-                    <td>Regular Family without kids
-                        <ul>
-                            <li>PMM Merchandise as thank you gifts ($12 value) </li>
                             <li>Free Access to 5 to 6 PMM events </li>
                             <li>Lunch / Dinner / Snacks Included</li>
                             <li>RSVP to the event is mandatory</li>
@@ -559,77 +224,9 @@
             </thead>
             <tbody>
                 <tr>
-                    <th scope="row">Patron Senior Couple (Ages 65 and up)</th>                    
-                    <td>Patron Senior Couple. Special privileges at events.
+                    <th scope="row">Senior Couple (Ages 65 and up)</th>                    
+                    <td>Senior Couple.
                         <ul>
-                            <li>PMM Merchandise as Thank you Gift ($42 value) </li>
-                            <li>50% Discount for guest program tickets (upto 4 tickets in a year)  ($40 value)</li>
-                            <li>Preferred seating </li>
-                            <li>Special Registration Counter </li>
-                            
-                            <li>Patron family name acknowledgement / Special Message / Thank you announcement during 1 event at your discretion</li>
-                            
-                            <li>Free Access to 5 to 6 PMM sponsored events </li>
-                            <li>Lunch / Dinner / Snacks Included</li>
-                            <li>RSVP to the event is mandatory</li>
-                        </ul>
-                    </td>
-                    <td>
-                        <div *ngIf="selPType=='Automatic Renewal'">
-                        <ul>
-                            <li><strong>$189 = $110(Regular Fees) + $79(Patron Fees)</strong></li>
-                            <li>Membership will be automatically renewed after one year</li>
-                            <li>
-                                To cancel automatic renewal after making a payment, click on the Unsubscribe button                                
-                            </li>
-                            <li>
-                                Another alternative to cancelling automatic renewal after making a payment is to send an email to Treasurer.PhillyMM@gmail.com. Include your name and email address used in the PayPal transaction. PMM will cancel the auto renewal from PMM's side.
-                            </li>
-                        </ul> 
-                        </div>
-                        <div *ngIf="selPType=='One-time Payment'">
-                            <ul>
-                            <li><strong>$189 = $110(Regular Fees) + $79(Patron Fees)</strong></li>
-                            </ul>
-                        </div>
-                    </td>
-                    <td style="text-align: center">
-                        <div *ngIf="selPType=='Automatic Renewal'">
-                        <form ngNoForm action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="54XDVTJXESVTG">
-                            <table>
-                            <tr><td><input type="hidden" name="on0" value="First Name">First Name</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
-                            <tr><td><input type="hidden" name="on1" value="Last Name">Last Name</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
-                            </table>
-                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-
-                        </form>
-                        <A HREF="https://www.paypal.com/cgi-bin/webscr?cmd=_subscr-find&alias=GW4ZBDCGJTHG2">
-                        <IMG SRC="https://www.paypalobjects.com/en_US/i/btn/btn_unsubscribe_LG.gif" BORDER="0">
-                        </A>
-                        </div>    
-                        <div *ngIf="selPType=='One-time Payment'">
-                        <form ngNoForm action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                        <input type="hidden" name="cmd" value="_s-xclick">
-                        <input type="hidden" name="hosted_button_id" value="MT6T2CUZW5VUS">
-                        <table>
-                        <tr><td><input type="hidden" name="on0" value="First Name">First Name</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
-                        <tr><td><input type="hidden" name="on1" value="Last Name">Last Name</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
-                        </table>
-                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                        </form>
-                                
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <th scope="row">Regular Senior Couple (Ages 65 and up)</th>                    
-                    <td>Regular Senior Couple.
-                        <ul>
-                            <li>PMM Merchandise as thank you gifts ( $12 value) </li>
                             <li>Free Access to 5 to 6 PMM events </li>
                             <li>Lunch / Dinner / Snacks Included</li>
                             <li>RSVP to the event is mandatory</li>
@@ -685,78 +282,10 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
-                        <th scope="row">Patron Senior Single (Ages 65 and up)</th>                    
-                        <td>Patron Senior Single. Special privileges at events.
-                            <ul>
-                                <li>PMM Merchandise as Thank you Gift ($37 value) </li>
-                                <li>50% Discount for guest program tickets (upto 4 tickets in a year)  ($40 value)</li>
-                                <li>Preferred seating </li>
-                                <li>Special Registration Counter </li>
-                                
-                                <li>Patron family name acknowledgement / Special Message / Thank you announcement during 1 event at your discretion</li>
-                                
-                                <li>Free Access to 5 to 6 PMM sponsored events </li>
-                                <li>Lunch / Dinner / Snacks Included</li>
-                                <li>RSVP to the event is mandatory</li>
-                            </ul>
-                        </td>
-                        <td>
-                            <div *ngIf="selPType=='Automatic Renewal'">
-                            <ul>
-                                <li><strong>$94 = $55(Regular Fees) + $39(Patron Fees)</strong></li>
-                                <li>Membership will be automatically renewed after one year</li>
-                                <li>
-                                    To cancel automatic renewal after making a payment, click on the Unsubscribe button                                
-                                </li>
-                                <li>
-                                    Another alternative to cancelling automatic renewal after making a payment is to send an email to Treasurer.PhillyMM@gmail.com. Include your name and email address used in the PayPal transaction. PMM will cancel the auto renewal from PMM's side.
-                                </li>
-                            </ul>  
-                            </div>
-                            <div *ngIf="selPType=='One-time Payment'">
-                                    <ul>
-                                    <li><strong>$94 = $55(Regular Fees) + $39(Patron Fees)</strong></li>
-                                    </ul>
-                            </div>
-                        </td>
-                        <td style="text-align: center">
-                            <div *ngIf="selPType=='Automatic Renewal'">
-                            <form ngNoForm action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                                <input type="hidden" name="cmd" value="_s-xclick">
-                                <input type="hidden" name="hosted_button_id" value="X4UC9JVBSWUNL">
-                                <table>
-                                <tr><td><input type="hidden" name="on0" value="First Name">First Name</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
-                                <tr><td><input type="hidden" name="on1" value="Last Name">Last Name</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
-                                </table>
-                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-
-                            </form>
-                            <A HREF="https://www.paypal.com/cgi-bin/webscr?cmd=_subscr-find&alias=GW4ZBDCGJTHG2">
-                            <IMG SRC="https://www.paypalobjects.com/en_US/i/btn/btn_unsubscribe_LG.gif" BORDER="0">
-                            </A>
-                            </div>
-                            <div *ngIf="selPType=='One-time Payment'">
-                                <form ngNoForm action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                                <input type="hidden" name="cmd" value="_s-xclick">
-                                <input type="hidden" name="hosted_button_id" value="KLCYV9BYQ35XY">
-                                <table>
-                                <tr><td><input type="hidden" name="on0" value="First Name">First Name</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
-                                <tr><td><input type="hidden" name="on1" value="Last Name">Last Name</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
-                                </table>
-                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                                </form>
-                                    
-                            </div>
-                        </td>
-                    </tr>
                     <tr>
-                        <th scope="row">Regular Senior Single (Ages 65 and up)</th>                    
-                        <td>Regular Senior Single.
+                        <th scope="row">Senior Single (Ages 65 and up)</th>                    
+                        <td>Senior Single.
                             <ul>
-                                <li>PMM Merchandise as thank you gifts ($12 value) </li>
                                 <li>Free Access to 5 to 6 PMM events </li>
                                 <li>Lunch / Dinner / Snacks Included</li>
                                 <li>RSVP to the event is mandatory</li>
@@ -843,147 +372,9 @@
             </thead>
             <tbody>
                 <tr>
-                    <th scope="row">Grand Patron Single</th>                    
-                    <td>Grand Patron Single<ul>
-                            <li>Patron membership for current year. (<strong>$100 value</strong>)</li>
-                            <li>Twice the number of Patron level PMM Merchandise as thank you gifts (<strong>$50 value</strong>)</li>
-                            <li>Reserved Seating</li>
-                            <li>Special Registration Counter </li>
-                            <li>Free entry to all PMM arranged / sponsor programs (upto 4 tickets)  (<strong>$80 value</strong>) </li>
-                            <li>Opportunity to promote business via a banner or standee at every event</li>
-                            <li>Patron family name acknowledgement / Special Message / Thank you announcement at every event at your discretion</li>
-                            <li><strong>Opportunity to felicitate visiting artist(s) at at least one event</strong></li>                            
-                            <li>Thank you announcement during every event</li>
-                            <li>Lunch / Dinner / Snacks Included</li>
-                            <li><strong>RSVP to the event is NOT required</strong></li>       
-                            <li><strong>Portion of this sponsorship will be put towards classical music concert funds.</strong> This will allows us to host high quality concerts when artists are visiting from India. Details on this fund will be shared later.</li>       
-                            <li><strong>Portion of this sponsorship will be put towards organizing youth events to benefit next generation of Marathi kids. </strong>Details on this fund will be shared later.</li>       
-                    </ul></td>
-                    <td>
-                        <div *ngIf="selPType=='Automatic Renewal'">
-                                <ul>
-                                    <li><strong>$599</strong></li>
-                                    <li>Membership will be automatically renewed after one year</li>
-                                    <li>
-                                        To cancel automatic renewal after making a payment, click on the Unsubscribe button                                    
-                                    </li>
-                                    <li>
-                                        Another alternative to cancelling automatic renewal after making a payment is to send an email to Treasurer.PhillyMM@gmail.com. Include your name and email address used in the PayPal transaction. PMM will cancel the auto renewal from PMM's side.
-                                    </li>
-                                </ul>
-                        </div>  
-                        <div *ngIf="selPType=='One-time Payment'">
-                                <ul>
-                                    <li><strong>$599</strong></li>
-                                </ul>
-                        </div>                        
-                    </td>
-                    <td style="text-align: center">
-                        <div  *ngIf="selPType=='Automatic Renewal'">
-                        <form ngNoForm action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="R9Y2E4CZUT33E">
-                            <table>
-                            <tr><td><input type="hidden" name="on0" value="First Name">First Name</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
-                            <tr><td><input type="hidden" name="on1" value="Last Name">Last Name</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
-                            </table>
-                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                        </form>
-                        <A HREF="https://www.paypal.com/cgi-bin/webscr?cmd=_subscr-find&alias=GW4ZBDCGJTHG2">
-                            <IMG SRC="https://www.paypalobjects.com/en_US/i/btn/btn_unsubscribe_LG.gif" BORDER="0">
-                        </A>
-                            
-                        </div>
-                        <div *ngIf="selPType=='One-time Payment'">
-                            <form ngNoForm action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                                <input type="hidden" name="cmd" value="_s-xclick">
-                                <input type="hidden" name="hosted_button_id" value="VQ6SYDGV8QMFW">
-                                <table>
-                                <tr><td><input type="hidden" name="on0" value="First Name">First Name</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
-                                <tr><td><input type="hidden" name="on1" value="Last Name">Last Name</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
-                                </table>
-                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-
-                            </form>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <th scope="row">Patron Single</th>                    
-                    <td>Patron Single Adult. Special privileges at events.
-                        <ul>
-                            <li>PMM Merchandise as Thank you Gift ($37 value) </li>
-                            <li>50% Discount for guest program tickets (upto 4 tickets in a year)  ($40 value)</li>
-                            <li>Preferred seating </li>
-                            <li>Special Registration Counter </li>
-                            
-                            <li>Patron family name acknowledgement / Special Message / Thank you announcement during 1 event at your discretion</li>
-                            
-                            <li>Free Access to 5 to 6 PMM sponsored events </li>
-                            <li>Lunch / Dinner / Snacks Included</li>
-                            <li>RSVP to the event is mandatory</li>
-                        </ul>
-                    </td>
-                    <td>
-                        <div *ngIf="selPType=='Automatic Renewal'">
-                        <ul>
-                            <li><strong>$119 = $80(Regular Fees) + $39(Patron Fees)</strong></li>
-                            <li>Membership will be automatically renewed after one year</li>
-                            <li>
-                                To cancel automatic renewal after making a payment, click on the Unsubscribe button                                
-                            </li>
-                            <li>
-                                Another alternative to cancelling automatic renewal after making a payment is to send an email to Treasurer.PhillyMM@gmail.com. Include your name and email address used in the PayPal transaction. PMM will cancel the auto renewal from PMM's side.
-                            </li>
-                        </ul> 
-                        </div>
-                        <div *ngIf="selPType=='One-time Payment'">
-                            <ul>
-                            <li><strong>$119 = $80(Regular Fees) + $39(Patron Fees)</strong></li>
-                            </ul>
-                        </div>
-                    </td>
-                    <td style="text-align: center">
-                        <div *ngIf="selPType=='Automatic Renewal'">
-                        <form ngNoForm action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="MJDRZ8ELGM23C">
-                            <table>
-                            <tr><td><input type="hidden" name="on0" value="First Name">First Name</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
-                            <tr><td><input type="hidden" name="on1" value="Last Name">Last Name</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
-                            </table>
-                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-
-
-                        </form>
-                        <A HREF="https://www.paypal.com/cgi-bin/webscr?cmd=_subscr-find&alias=GW4ZBDCGJTHG2">
-                        <IMG SRC="https://www.paypalobjects.com/en_US/i/btn/btn_unsubscribe_LG.gif" BORDER="0">
-                        </A>
-                        </div>
-
-                        <div *ngIf="selPType=='One-time Payment'">
-                            <form ngNoForm action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="XGGF86JYYRPZQ">
-                            <table>
-                            <tr><td><input type="hidden" name="on0" value="First Name">First Name</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
-                            <tr><td><input type="hidden" name="on1" value="Last Name">Last Name</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
-                            </table>
-                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                            </form>
-                                
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <th scope="row">Regular Single</th>                    
+                    <th scope="row">Single</th>                    
                     <td>Single Adult.
                         <ul>
-                            <li>PMM Merchandise as thank you gifts ($12 value) </li>
                             <li>Free Access to 5 to 6 PMM events </li>
                             <li>Lunch / Dinner / Snacks Included</li>
                             <li>RSVP to the event is mandatory</li>
@@ -1373,7 +764,7 @@
                                     <li>RSVP to the event is mandatory</li>
                                 </ul>
                             </td>
-                            <td>$114 = $75(Regular Fees) + $39(Patron Fees)/td>
+                            <td>$117 = $77(Regular Fees) + $39(Patron Fees)/td>
                             <td>
                                 <form ngNoForm action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                     <input type="hidden" name="cmd" value="_s-xclick">
