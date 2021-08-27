@@ -50,7 +50,7 @@ export class GoogledriveService {
 
   getEvents(): Observable<PMMEvent[]> {
     return this.http
-      .get('assets/data/events_V2.json')
+      .get('assets/data/events_V3.json')
       .map(res =>  this.extractData<PMMEvent[]>(res))
       .catch(this.catchBadResponse)
       .finally(() => {});

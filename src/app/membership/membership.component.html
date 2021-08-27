@@ -9,15 +9,16 @@
     -->
     <div>
         <p></p>
+        <!--
         <p>   
-            IMPORTANT NOTE: PLEASE SELECT YOUR MEMBERSHIP CATEGORY CAREFULLY.  MEMBERSHIP IN A CATEGORY THAT IS INCORRECT OR NON-APPLICABLE WILL BE CONSIDERED EQUIVALENT TO NON-MEMBERSHIP.
+            IMPORTANT NOTE: PLEASE SELECT YOUR MEMBERSHIP CATEGORY.
         </p>
         <p><strong style="color:tomato">Prior to purchasing a membership, please update your information by filling this questionnaire: 
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKMawstj80F7mz4ZamHI07yOYfeMArDndYZ8-Qb7MsJsk2Vg/viewform"> Member Information Page Questionnaire</a>.</strong> </p>
-        
+        -->
     </div>
     <div>
-        <strong>Select Membership Type </strong>
+        <strong style="color:blue">Select Membership Type </strong>
         <select ng-model="selectedMType" (change)="changeMembershipView($event.target)">
             <option *ngFor="let x of membershipTypes" value= {{x.divid}}>{{x.name}}</option>
         </select>
@@ -76,7 +77,7 @@
             <tbody>        
                
                 <tr>
-                    <th scope="row">Family</th>                    
+                    <th scope="row">Family (2 adults &amp; upto 3 kids) </th>                    
                     <td>Family with kids
                         <ul>
                             <li>Free Access to 5 to 6 PMM events </li>
@@ -137,8 +138,8 @@
                     </td>
                 </tr> 
                 <tr>
-                    <th scope="row">Family without kids /<br/> Single Parent with kids</th>                    
-                    <td>Family without kids / Single Parent with kids
+                    <th scope="row">Family without kids (2 adults) /<br/> Single Parent with kids (upto 3 kids)</th>                    
+                    <td>Family without kids / Single Parent with kids 
                         <ul>
                             <li>Free Access to 5 to 6 PMM events </li>
                             <li>Lunch / Dinner / Snacks Included</li>
