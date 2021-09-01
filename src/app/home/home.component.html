@@ -51,9 +51,10 @@
           
           <div class="col-md-8" style="margin-top:8px;">
             <hr class="col-xs-12"/> 
-            <h4>{{e.Title}}  <span *ngIf="e.Date.length > 1"> - {{e.Date}}</span></h4>
-            <h5 *ngIf="e.Venue.length > 1"  ><u>Venue:</u> {{e.Venue}}</h5>
-            <h6 *ngIf="e.Agenda.length > 1"><u>Event Timeline</u></h6>
+            <h4 style="color:blue"> {{e.Title}}  <span *ngIf="e.Date.length > 1"> - {{e.Date}}</span></h4>
+            <h5 *ngIf="e.Venue.length > 1"  ><u>Venue: </u> {{e.Venue}}</h5>
+
+        <h6 *ngIf="e.Agenda.length > 1"><u>Event Timeline</u></h6>
             <div *ngIf="e.Agenda.length > 1">
               <div  *ngFor="let ea of e.Agenda">
                 <span>{{ea.Time}}</span>
@@ -84,6 +85,10 @@
             </div>
             <img *ngIf="!e.Video" [src]="e.Flyer" width="60%" style="margin-top: 10"/>
             <!--img *ngIf="!e.Video" [src]="e.Flyer2" width="100%" style="margin-top: 10"/-->
+            <div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3045.1928568614717!2d-75.20438418435484!3d40.249245073732034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6a680ab21ab81%3A0x2b617a3e0c1de5d2!2s1612%20County%20Line%20Rd%2C%20Chalfont%2C%20PA%2018914!5e0!3m2!1sen!2sus!4v1630443842808!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="true" loading="lazy">
+              </iframe>
+            </div>
           </div>
         </div>
       </div>

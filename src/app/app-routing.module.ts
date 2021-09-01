@@ -10,6 +10,7 @@ import { NewToPhillyComponent } from './new-to-philly/new-to-philly.component';
 import { CommitteeComponent } from './committee/committee.component';
 import { FaqComponent } from './faq/faq.component';
 import { MerchandiseComponent } from './merchandise/merchandise.component';
+import { LogoSloganComp2021Component } from './logoSloganComp2021/logoSloganComp2021.component';
 import { CookiePolicyComponent } from './cookiepolicy/cookiepolicy.component';
 export const routes: Routes = [
     {
@@ -44,6 +45,10 @@ export const routes: Routes = [
     {
       path: 'new-to-philly',
       component: NewToPhillyComponent
+    },
+    {
+      path: 'logoSloganComp2021',
+      component: LogoSloganComp2021Component
     },
     {
       path: 'photo-video',

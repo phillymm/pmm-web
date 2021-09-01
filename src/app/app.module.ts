@@ -19,6 +19,7 @@ import { MerchandiseComponent } from './merchandise/merchandise.component';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { CommonPdfViewerComponent } from './common-pdf-viewer/common-pdf-viewer.component';
 import { CookiePolicyComponent } from './cookiepolicy/cookiepolicy.component';
+import { LogoSloganComp2021Component } from './logoSloganComp2021/logoSloganComp2021.component';
 
 
 @NgModule({
@@ -37,6 +38,7 @@ import { CookiePolicyComponent } from './cookiepolicy/cookiepolicy.component';
     MerchandiseComponent,
     CommonPdfViewerComponent,
     CookiePolicyComponent,
+    LogoSloganComp2021Component,
     SafeurlPipe
   ],
   imports: [
