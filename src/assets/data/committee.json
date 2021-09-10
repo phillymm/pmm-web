@@ -1,74 +1,56 @@
 [
     {
         "Title": "Executive Committee (ec-phillymm@googlegroups.com)",
-        "Picture": "assets/images/PMM_2020_Collage_1.png",
-        "Intro": "https://drive.google.com/file/d/1R_bYL1dM9XFXJt79O6wCi0jl3hXZzxgV/view",
+        "Picture": "",
+        "Intro": "",
         "Members" : [
             {
                 "role": "President",
-                "person": "Prasad Sawant",
+                "person": "Asheesh Nadkarni",
                 "email": "President@phillymm.org",
-                "picture":"assets/images/VK.jpg"
+                "picture":""
             },
             {
                 "role": "Vice President",
-                "person": "Arpana Date",
+                "person": "Sachin Prabhudesai",
                 "email": "VicePresident.PhillyMM@gmail.com",
-                "picture":"assets/images/RP.jpg"
+                "picture":""
             },
             {
                 "role": "Secretary",
-                "person": "Aarti Prabhudesai",
+                "person": "Aniruddha Railkar",
                 "email": "Secy.PhillyMM@gmail.com",
-                "picture":"assets/images/GJ.jpg"
+                "picture":""
             },
             {
                 "role": "Associate Secretary",
-                "person": "Ojaswinee Jog",
+                "person": "Manish Kurhekar",
                 "email": "",
-                "picture":"assets/images/SW.jpg"
+                "picture":""
             },
             {
                 "role": "Treasurer",
-                "person": "Amit Shinde",
+                "person": "Suhas Shelukar",
                 "email": "Treasurer.PhillyMM@gmail.com",
-                "picture":"assets/images/WD.jpg"
+                "picture":""
             },
             {
                 "role": "Associate Treasurer",
-                "person": "Suhas Shelukar",
+                "person": "Harshada Pendharkar",
                 "email": "",
-                "picture":"assets/images/AP.jpg"
+                "picture":""
             },
             {
                 "role": "PMM IT",
-                "person": "Abhijit Shrikhande",
-                "email": "",
-                "picture":"assets/images/WebTeam-Collage.png"
-            },
-            {
-                "role": "BMM Liaison",
-                "person": "Neeraj Joshi",
-                "email": "",
-                "picture":"assets/images/AR.jpg"
-            },
-            {
-                "role": "Outreach Coordination",
-                "person": "Snehal Jadey, Pranoti Pradhan, Gopal Kalore",
-                "email": "",
-                "picture":"assets/images/Outreach-collage.png"
-            },
-            {
-                "role": "Inventory Leads",
-                "person": "Geeta Shelukar, Amol Waghmare",
-                "email": "",
-                "picture":"assets/images/Inventory-collage.png"
-            },
-            {
-                "role": "Extended Team Coordinator",
-                "person": "Vrushali Inamdar",
+                "person": "Abhijit Shrikhande, Milind Date",
                 "email": "",
                 "picture":""
+            },
+            {
+                "role": "EC Members",
+                "person": "Arpana Date, Arti Prabhudesai, Geeta Shelukar, Ojaswinee Jog, Sheetal Pawar, Shilpa Nagale, Shirish Joglekar, Trupti Kamat, Vrushali Inamdar, Yogesh Date",
+                "email": "",
+                "picture":"assets/images/Outreach-collage.png"
             }
         ]
     },
