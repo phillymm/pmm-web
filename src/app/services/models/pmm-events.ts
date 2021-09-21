@@ -18,4 +18,5 @@ export class PMMEvent {
     SurveyLink:'';
     ProgramDescription:'';
     ProgramLink:'';
+    EventPhotos:'';
 }

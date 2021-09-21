@@ -40,10 +40,9 @@
     </div>
   -->
     <div class="row" *ngIf="pmmevent && pmmevent.length > 0">
-      <span class="col-md-12"><h4>UPCOMING EVENTS</h4></span>
+      <span class="col-md-12"><h4>EVENTS SO FAR...</h4></span>
     </div>
 <div class="row">
-       
 </div>
 
     <div class="row" *ngIf="pmmevent && pmmevent.length > 0">
@@ -65,7 +64,7 @@
             <h6 *ngIf="e.ProgramLink.length > 1" style="margin-top:5px;">
               Program Link : <a [href]="e.ProgramLink">{{e.ProgramLink}}</a>
             </h6>
-           
+            <h6 *ngIf="e.EventPhotos.length > 1"><a href="{{e.EventPhotos}}" target="_blank">Event Photos</a></h6>
             <h6 *ngIf="e.Agenda.length > 1"><u>Event Time</u> {{e.Agenda[0].Time}}</h6>
             <h6 *ngIf="e.RSVPLink" style="margin-top:5px;"><a [href]="e.RSVPLink">RSVP Link</a></h6>
             <h6 *ngIf="e.SurveyLink" style="margin-top:5px;"><a [href]="e.SurveyLink">Survey Link</a></h6>
