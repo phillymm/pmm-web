@@ -3,20 +3,20 @@ export class PMMEventAgenda {
     Event = '';
 }
 
-export class PMMEvent {
-    Title = '';
-    RSVPLink = '';
-    FBLink = '';
-    Fee = '';
-    FeeDetails = '';
-    FeeLink = '';
-    Date = '';
+export interface PMMEvent {
+    Title: string;
+    RSVPLink: string;
+    FBLink: string;
+    Fee: string;
+    FeeDetails: string;
+    FeeLink: string;
+    Date: Date;
     Agenda: PMMEventAgenda[];
-    Venue: '';
-    Flyer: '';
-    Video: '';
-    SurveyLink:'';
-    ProgramDescription:'';
-    ProgramLink:'';
-    EventPhotos:'';
+    Venue: string;
+    Flyer: string;
+    Video: string;
+    SurveyLink: string;
+    ProgramDescription: string;
+    ProgramLink: string;
+    EventPhotos: string;
 }
