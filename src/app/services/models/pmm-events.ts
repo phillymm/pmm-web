@@ -19,4 +19,5 @@ export interface PMMEvent {
     ProgramDescription: string;
     ProgramLink: string;
     EventPhotos: string;
+    MapLink:string;
 }
