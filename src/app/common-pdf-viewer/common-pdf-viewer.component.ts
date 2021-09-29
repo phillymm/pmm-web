@@ -2,18 +2,27 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-common-pdf-viewer',
-  template: `
-  <pdf-viewer src="assets/pdf/view.pdf" 
-              [render-text]="true"
-              style="display: block;"
-              [original-size]="false"
-  ></pdf-viewer>`
+  templateUrl: './common-pdf-viewer.component.html'
 })
+
 export class CommonPdfViewerComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit() {
+  constructor() { 
   }
 
+  ngOnInit() {
+    
+  }
+    public doc: Array<string> =
+    [
+     "assets/pdf/view.pdf",
+     "assets/pdf/view.pdf",
+     "assets/pdf/view.pdf",
+     "assets/pdf/view.pdf"
+    ];
+
+}
+
+export class ForLoop {
+  fakeArray = new Array(3);
 }

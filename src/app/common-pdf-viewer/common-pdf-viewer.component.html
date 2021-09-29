@@ -1,0 +1,10 @@
+<br/>
+<br/><br/><br/><br/><br/>
+<div *ngFor="let index of [0,1,2]">
+    Something something {{index}}
+    <pdf-viewer [src]="doc[index]" 
+              [render-text]="true"
+              style="display: inside;"
+              [original-size]="false"
+  ></pdf-viewer>
+</div>
