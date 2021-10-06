@@ -40,8 +40,8 @@
             <hr class="col-xs-12"/> 
             <h4 style="color:blue"> {{e.Title}}</h4>
             <h5 *ngIf="e.Venue.length > 1"  ><u>Venue: </u> {{e.Venue}}</h5>
-            <h6 *ngIf="e.Agenda.length > 1"><u>Event Timeline</u></h6>
-            <div *ngIf="e.Agenda.length > 1">
+            <h6 *ngIf="e.Agenda.length > 0"><u>Event Timeline</u></h6>
+            <div *ngIf="e.Agenda.length > 0">
               <div  *ngFor="let ea of e.Agenda">
                 <span>{{ea.Time}}</span>
                 <span>{{ea.Event}}</span>
