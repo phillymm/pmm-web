@@ -59,7 +59,7 @@
             <h6 *ngIf="e.FeeDetails"><u>Fee Details:</u> <strong>{{e.FeeDetails}}</strong></h6>-->
             <h6 *ngIf="e.Fee"style="margin-top:5px;"><u>Program Fees:</u> {{e.Fee}}</h6>
             <h6 *ngIf="e.FeeDetails">{{e.FeeDetails}}</h6>
-            <h6 *ngIf="e.FeeLink" style="margin-top:5px;">{{e.FeeLink}}</h6>            
+            <h6 *ngIf="e.FeeLink" style="margin-top:5px;"><a [href]="e.FeeLink"><b>Buy Tickets.</b></a></h6>            
             <h6 *ngIf="e.FBLink"  style="margin-top:5px;">{{e.FBLink}}</h6>
             <!--h6 *ngIf="e.FeeLink" style="margin-top:5px;"><a [href]="e.FeeLink">TICKET LINK</a></h6>            
             <h6 *ngIf="e.FBLink"  style="margin-top:5px;"><a [href]="e.FBLink">Facebook Link</a></h6-->
