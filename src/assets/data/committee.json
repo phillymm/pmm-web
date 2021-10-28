@@ -47,8 +47,14 @@
                 "picture":""
             },
             {
+                "role":"BMM Liason",
+                "person":"Sheetal Pawar",
+                "email":"",
+                "picture":""
+            },
+            {
                 "role": "EC Members",
-                "person": "Arpana Date, Aarti Prabhudesai, Geeta Shelukar, Ojaswinee Jog, Sheetal Pawar, Shilpa Nagale, Shirish Joglekar, Trupti Kamat, Vrushali Inamdar, Yogesh Date",
+                "person": "Arpana Date, Aarti Prabhudesai, Geeta Shelukar, Ojaswinee Jog, Shilpa Nagale, Shirish Joglekar, Trupti Kamat, Vrushali Inamdar, Yogesh Date",
                 "email": "",
                 "picture":"assets/images/Outreach-collage.png"
             }
