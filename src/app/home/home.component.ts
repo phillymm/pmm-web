@@ -29,7 +29,8 @@ export class HomeComponent implements OnInit {
     this.googledriveService.getEvents()
     .subscribe(res => {
       const pastMatches = res.filter(f => this.compareDate(f.Date, new Date()) < 0);
-      const futureMatches = res.filter(f =>  this.compareDate(f.Date, new Date()) >= 0);
+      const futureMatches = res.filter(f =>  this.compareDate(f.Date, new Date()) >= 0).sort((a: any, b: any) =>
+      new Date(a.Date).getTime() - new Date(b.Date).getTime());
 
       this.pmmPastEvent = pastMatches;
       this.pmmFutureEvent = futureMatches;

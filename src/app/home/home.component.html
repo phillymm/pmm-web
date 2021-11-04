@@ -40,8 +40,8 @@
             <hr class="col-xs-12"/> 
             <h4 style="color:blue"> {{e.Title}}</h4>
             <h5 *ngIf="e.Venue.length > 1"  ><u>Venue: </u> {{e.Venue}}</h5>
-            <h6 *ngIf="e.Agenda.length > 1"><u>Event Timeline</u></h6>
-            <div *ngIf="e.Agenda.length > 1">
+            <h6 *ngIf="e.Agenda.length > 0"><u>Event Timeline</u></h6>
+            <div *ngIf="e.Agenda.length > 0">
               <div  *ngFor="let ea of e.Agenda">
                 <span>{{ea.Time}}</span>
                 <span>{{ea.Event}}</span>
@@ -59,7 +59,7 @@
             <h6 *ngIf="e.FeeDetails"><u>Fee Details:</u> <strong>{{e.FeeDetails}}</strong></h6>-->
             <h6 *ngIf="e.Fee"style="margin-top:5px;"><u>Program Fees:</u> {{e.Fee}}</h6>
             <h6 *ngIf="e.FeeDetails">{{e.FeeDetails}}</h6>
-            <h6 *ngIf="e.FeeLink" style="margin-top:5px;">{{e.FeeLink}}</h6>            
+            <h6 *ngIf="e.FeeLink" style="margin-top:5px;"><a [href]="e.FeeLink"><b>Buy Tickets.</b></a></h6>            
             <h6 *ngIf="e.FBLink"  style="margin-top:5px;">{{e.FBLink}}</h6>
             <!--h6 *ngIf="e.FeeLink" style="margin-top:5px;"><a [href]="e.FeeLink">TICKET LINK</a></h6>            
             <h6 *ngIf="e.FBLink"  style="margin-top:5px;"><a [href]="e.FBLink">Facebook Link</a></h6-->
