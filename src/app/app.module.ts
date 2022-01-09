@@ -20,6 +20,8 @@ import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { CommonPdfViewerComponent } from './common-pdf-viewer/common-pdf-viewer.component';
 import { CookiePolicyComponent } from './cookiepolicy/cookiepolicy.component';
 import { LogoSloganComp2021Component } from './logoSloganComp2021/logoSloganComp2021.component';
+import {Pmm50Component} from './pmm50/pmm50.component';
+import { ProgramProposalComponent } from './programproposal/programproposal.component';
 
 
 @NgModule({
@@ -39,6 +41,8 @@ import { LogoSloganComp2021Component } from './logoSloganComp2021/logoSloganComp
     CommonPdfViewerComponent,
     CookiePolicyComponent,
     LogoSloganComp2021Component,
+    Pmm50Component,
+    ProgramProposalComponent,
     SafeurlPipe
   ],
   imports: [
