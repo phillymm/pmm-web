@@ -54,7 +54,7 @@
             },
             {
                 "role": "EC Members",
-                "person": "Arpana Date, Aarti Prabhudesai, Geeta Shelukar, Ojaswinee Jog, Shilpa Nagale, Shirish Joglekar, Trupti Kamat, Vrushali Inamdar, Yogesh Date",
+                "person": "Arpana Date, Aarti Prabhudesai, Geeta Shelukar, Ojaswinee Jog, Shilpa Nagale, Shirish Joglekar, Trupti Kamat, Vrushali Inamdar, Yogesh Date, Seema Nawathe",
                 "email": "",
                 "picture":"assets/images/Outreach-collage.png"
             }
@@ -75,6 +75,9 @@
             },
             {
                 "person":"Vivek Inamdar"   
+            },
+            {
+                "person":"Yogesh Dahale"
             }    
         ]
     }

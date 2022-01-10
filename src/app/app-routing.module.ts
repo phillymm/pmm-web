@@ -12,6 +12,8 @@ import { FaqComponent } from './faq/faq.component';
 import { MerchandiseComponent } from './merchandise/merchandise.component';
 import { LogoSloganComp2021Component } from './logoSloganComp2021/logoSloganComp2021.component';
 import { CookiePolicyComponent } from './cookiepolicy/cookiepolicy.component';
+import { Pmm50Component } from './pmm50/pmm50.component';
+import { ProgramProposalComponent } from './programproposal/programproposal.component';
 export const routes: Routes = [
     {
       path: '',
@@ -51,6 +53,10 @@ export const routes: Routes = [
       component: LogoSloganComp2021Component
     },
     {
+      path:'pmm50',
+      component: Pmm50Component
+    },
+    {
       path: 'photo-video',
       component: PhotoVideoComponent
     },
@@ -61,6 +67,10 @@ export const routes: Routes = [
     {
       path: 'cookiepolicy',
       component: CookiePolicyComponent
+    },
+    {
+      path:'programproposal',
+      component:ProgramProposalComponent
     },
     { path: '**', component: PageNotFoundComponent }
 ];
