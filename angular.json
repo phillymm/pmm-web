@@ -4,7 +4,7 @@
   "newProjectRoot": "projects",
   "projects": {
     "pmm-web": {
-      "root": "",
+      "root": "app",
       "projectType": "application",
       "architect": {
         "build": {

@@ -13,6 +13,7 @@ import { MerchandiseComponent } from './merchandise/merchandise.component';
 import { LogoSloganComp2021Component } from './logoSloganComp2021/logoSloganComp2021.component';
 import { CookiePolicyComponent } from './cookiepolicy/cookiepolicy.component';
 import { Pmm50Component } from './pmm50/pmm50.component';
+import { Bmm2022Component } from './bmm2022/bmm2022.component';
 import { ProgramProposalComponent } from './programproposal/programproposal.component';
 export const routes: Routes = [
     {
@@ -56,6 +57,10 @@ export const routes: Routes = [
       path:'pmm50',
       component: Pmm50Component
     },
+    {
+      path:'bmm2022',
+      component: Bmm2022Component
+    },    
     {
       path: 'photo-video',
       component: PhotoVideoComponent
