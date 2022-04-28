@@ -4,7 +4,7 @@
   "newProjectRoot": "projects",
   "projects": {
     "pmm-web": {
-      "root": "",
+      "root": "app",
       "projectType": "application",
       "architect": {
         "build": {
@@ -28,10 +28,10 @@
               }
             ],
             "styles": [
+              "src/styles.css",
               "src/assets/css/bootstrap.css",
               "src/assets/css/jumbotron.css",
-              "src/assets/css/font-awesome.min.css",
-              "src/styles.css"
+              "src/assets/css/font-awesome.min.css"
             ],
             "scripts": [
               "src/assets/js/jquery-3.2.1.slim.min.js",
