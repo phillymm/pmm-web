@@ -23,6 +23,8 @@ import { LogoSloganComp2021Component } from './logoSloganComp2021/logoSloganComp
 import { Pmm50Component } from './pmm50/pmm50.component';
 import { ProgramProposalComponent } from './programproposal/programproposal.component';
 import { Bmm2022Component } from './bmm2022/bmm2022.component';
+import { RsvpMembersComponent } from './rsvpmembers/rsvpmembers.component';
+import { PastEventsComponent } from './pastEvents/pastEvents.component';
 
 
 @NgModule({
@@ -45,7 +47,9 @@ import { Bmm2022Component } from './bmm2022/bmm2022.component';
     Pmm50Component,
     ProgramProposalComponent,
     SafeurlPipe,
-    Bmm2022Component
+    Bmm2022Component,
+    RsvpMembersComponent,
+	PastEventsComponent
   ],
   imports: [
     BrowserModule,

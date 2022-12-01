@@ -15,6 +15,9 @@ import { CookiePolicyComponent } from './cookiepolicy/cookiepolicy.component';
 import { Pmm50Component } from './pmm50/pmm50.component';
 import { Bmm2022Component } from './bmm2022/bmm2022.component';
 import { ProgramProposalComponent } from './programproposal/programproposal.component';
+import { RsvpMembersComponent } from './rsvpmembers/rsvpmembers.component';
+import { PastEventsComponent } from './pastEvents/pastEvents.component';
+
 export const routes: Routes = [
     {
       path: '',
@@ -77,6 +80,14 @@ export const routes: Routes = [
       path:'programproposal',
       component:ProgramProposalComponent
     },
+    {
+      path:'rsvpmembers',
+      component:RsvpMembersComponent
+    },
+    {
+      path:'pastEvents',
+      component:PastEventsComponent
+    },    
     { path: '**', component: PageNotFoundComponent }
 ];
 

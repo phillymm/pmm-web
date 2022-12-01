@@ -1,0 +1,52 @@
+<section class="container">
+  <div class="pmm-jumbotron" style="margin-top:15px;background-color: cornsilk;">
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="B9F64ZBDKR47S">
+      <table>
+      <tr><td style="background-color:silver"><input type="hidden" name="on0" value="Program Fee">Member Refundable Deposit Fee</td></tr><tr><td><select name="os0">
+                     <option value="1 Adult">1 Adult $20.00 USD</option>
+                     <option value="2 Adults">2 Adults $40.00 USD</option>
+                     <option value="3 Adults">3 Adults $60.00 USD</option>
+                     <option value="4 Adults">4 Adults $80.00 USD</option>
+                     <option value="1 Adult + 1 Kid">1 Adult + 1 Kid $30.00 USD</option>
+                     <option value="1 Adult + 2 Kids">1 Adult + 2 Kids $40.00 USD</option>
+                     <option value="2 Adults + 1 Kid">2 Adults + 1 Kid $50.00 USD</option>
+                     <option value="2 Adults + 2 Kids">2 Adults + 2 Kids $60.00 USD</option>
+                     <option value="4 Adults + 1 Kid">4 Adults + 1 Kid $90.00 USD</option>
+                     <option value="4 Adults + 2 Kids">4 Adults + 2 Kids $100.00 USD</option>
+      </select> </td></tr>
+      </table>
+      <input type="hidden" name="currency_code" value="USD">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
+   </div>
+   <div class="pmm-jumbotron" style="margin-top:15px;background-color: aquamarine;">
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="458UCPM929RTS">
+      <table>
+      <tr><td style="background-color:gold">
+            <input type="hidden" name="on0" value="Program Fee">PMM Non-Member Program Fee</td></tr><tr><td>
+              <select name="os0" [(ngModel)]="NonMemberFee">
+                     <option value="30">1 Adult $30.00 USD</option>
+                     <option value="60">2 Adults $60.00 USD</option>
+                     <option value="90">3 Adults $90.00 USD</option>
+                     <option value="120">4 Adults $120.00 USD</option>
+                     <option value="50">1 Adult + 1 Kid $50.00 USD</option>
+      </select> </td></tr>
+      <tr>
+        <td>{{ NonMemberFee }}</td>
+        <td><a href="{{ PaypalLink }}">Pay For Event</a></td>
+      </tr>
+      </table>
+      <input type="hidden" name="currency_code" value="USD">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
+      <button (click)="clickEvent()">Click Me For Fun</button>
+      <input type="text"  [(ngModel)]="msg">
+      <h2>{{msg}}</h2>
+    </div>
+</section>

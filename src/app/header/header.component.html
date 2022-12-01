@@ -18,12 +18,26 @@
               <a class="nav-link" routerLink="home">Home 
               </a>
             </li>
+            <!--
             <li class="nav-item">
-              <a class="nav-link" routerLink="bmm2022">BMM 2022</a>
-            </li>
+              <a  class="nav-link" routerLink="rsvpmembers">RSVP Members</a>       
+            </li>            
+            -->
+            <li class="nav-item">
+              <a  class="nav-link" routerLink="programproposal">Program Proposal</a>       
+            </li>            
             <!-- renabled membership tab temporarily -->
             <li class="nav-item">
               <a class="nav-link" routerLink="membership">Membership</a>        
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="about-us">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="committee">Committee</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="pastEvents">Past Events</a>
             </li>
             <!--
             <li class="nav-item">
@@ -35,12 +49,6 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" routerLink="photo-video">Photo/Video</a>        
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" routerLink="about-us">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" routerLink="committee">Committee</a>
             </li>
             <!--
             <li class="nav-item">
@@ -56,25 +64,30 @@
               <a  class="nav-link" routerLink="new-to-philly">New to Philly</a>       
             </li>
             <li class="nav-item">
-              <a  class="nav-link" routerLink="programproposal">Program Proposal</a>       
+              <a class="nav-link" routerLink="bmm2022">BMM</a>
             </li>
-            
-          </ul>
+            </ul>
 
           <ul class="navbar-nav" *ngIf="dataToggleSet">
               <li class="nav-item">
                 <a class="nav-link" href="home">Home 
                 </a>
               </li>
-            
               <li class="nav-item">
+                <a  class="nav-link" href="programproposal">Program Proposal</a>       
+              </li> 
+              <li class="nav-item-pmm50">
                 <a class="nav-link" href="membership">Membership</a>        
               </li>
-
               <li class="nav-item">
-                <a class="nav-link" href="bmm2022">BMM 2022</a>
+                <a class="nav-link" href="about-us">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="committee">Committee</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="pastEvents">Past Events</a>
               </li>              
-
             <!--
               <li class="nav-item">
                 <a class="nav-link" routerLink="merchandise">Merchandise</a>        
@@ -87,21 +100,16 @@
                 <a class="nav-link" href="photo-video">Photo/Video</a>        
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about-us">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="committee">Committee</a>
-              </li>
-              <li class="nav-item">
                 <a  class="nav-link" href="new-to-philly">New to Philly</a>       
               </li>
               <li class="nav-item">
-                <a  class="nav-link" href="programproposal">Program Proposal</a>       
-              </li>              
+                <a class="nav-link" href="bmm2022">BMM</a>
+              </li>
+              <!--  
               <li class="nav-item">
                 <a class="pmm50" href="pmm50">PMM-50 Event</a>
               </li>              
-
+              -->                           
             </ul>
         </div>    
     </div>

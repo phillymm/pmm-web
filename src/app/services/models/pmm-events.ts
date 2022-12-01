@@ -5,6 +5,8 @@ export class PMMEventAgenda {
 
 export interface PMMEvent {
     Title: string;
+    Title2: string;
+    PointOfContact: string;
     RSVPLink: string;
     FBLink: string;
     Fee: string;

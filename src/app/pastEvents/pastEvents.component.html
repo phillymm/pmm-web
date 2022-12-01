@@ -1,0 +1,21 @@
+<section class="home">
+  <div class="pmm-jumbotron" style="margin-top:5px;margin-bottom: 15px;">
+  </div>
+  
+  <div class="pmm-jumbotron" style="margin-top:5px;margin-bottom: 15px;" *ngIf="pmmPastEvent2 && pmmPastEvent2.length > 0">
+    <div class="row">
+      <span class="col-md-12" style="color:red;"><h4>PAST EVENTS</h4></span>
+    </div>
+    <div class="row">
+        <div *ngFor="let ff of pmmPastEvent2" class="col-md-12" style="margin-top:5px;">
+          <div class="col-md-8" style="margin-top:8px;">
+            <hr class="col-xs-12"/> 
+            <h4 style="color:black"><u>{{ff.Title}}</u></h4>
+            <h5 style="color:brown"> {{ff.Title2}} </h5>
+            <h6 style="color:blue">Venue: <span style="color:black">{{ff.Venue}}</span></h6>
+            <img [src]="ff.Flyer"/>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
