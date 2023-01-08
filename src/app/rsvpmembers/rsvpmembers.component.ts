@@ -14,11 +14,4 @@ export class RsvpMembersComponent implements OnInit {
   constructor(private http: Http) { }
   ngOnInit() {
   }
-  clickEvent()
-  {
-    //this.NonMemberFee = this.NonMemberFee.value;
-    this.PaypalLink = "https://paypal.me/abhijitshrikhande/" + this.NonMemberFee.toString();
-    this.msg = this.PaypalLink;
-    return this.msg;
-  }
 }
