@@ -48,11 +48,11 @@
             <h5 style="color:brown"> {{e.Title2}} </h5>
             <h5 *ngIf="e.ProgramDescription.length > 1"><i>{{e.ProgramDescription}}</i></h5>            
             <h6 *ngIf="e.Venue.length > 1" style="margin-top:5px; color:blue">Venue: <span style="color:black">{{e.Venue}}</span> </h6>
-            <h6 *ngIf="e.Agenda.length > 0"><u>Event Timeline</u></h6>
+            <h6 *ngIf="e.Agenda.length > 0" style="margin-top:5px; color:blue">Event Timeline:</h6>
             <div *ngIf="e.Agenda.length > 0">
-              <div  *ngFor="let ea of e.Agenda">
-                <span>{{ea.Time}}</span>
-                <span>{{ea.Event}}</span>
+              <div *ngFor="let ea of e.Agenda" class="row" style="margin-left:8px;margin-top:2px;"> 
+                <span class="" style="color:blue;">{{ea.Time}} :</span>
+                <span class="" style="color:black">&nbsp; {{ea.Event}}</span>
               </div>
             </div>
             <h6 *ngIf="e.RSVPLink" style="margin-top:5px; color:blue">RSVP Link:<a [href]="e.RSVPLink">{{e.RSVPLink}}</a></h6>            
@@ -61,7 +61,6 @@
               Program Link : <a [href]="e.ProgramLink">{{e.ProgramLink}}</a>
             </h6>
             <h6 *ngIf="e.EventPhotos.length > 1"><a href="{{e.EventPhotos}}" target="_blank">Event Photos</a></h6>
-            <h6 *ngIf="e.Agenda.length > 1"><u>Event Time</u> {{e.Agenda[0].Time}}</h6>
             <h6 *ngIf="e.SurveyLink" style="margin-top:5px;"><a [href]="e.SurveyLink">Survey Link</a></h6>
             <!--h6 *ngIf="e.Fee"style="margin-top:5px;"><u>Program Fees:</u> {{e.Fee}}</h6>
             <h6 *ngIf="e.FeeDetails"><u>Fee Details:</u> <strong>{{e.FeeDetails}}</strong></h6>-->
