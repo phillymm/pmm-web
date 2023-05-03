@@ -22,4 +22,6 @@ export interface PMMEvent {
     ProgramLink: string;
     EventPhotos: string;
     MapLink:string;
+    Childcarelink:string;
+    Childcarewaiver:string;
 }

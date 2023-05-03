@@ -46,7 +46,7 @@
             <hr class="col-xs-12"/> 
             <h4 style="color:black"><u>{{e.Title}}</u></h4>
             <h5 style="color:brown"> {{e.Title2}} </h5>
-            <h5 *ngIf="e.ProgramDescription.length > 1"><i>{{e.ProgramDescription}}</i></h5>            
+            <h5 *ngIf="e.ProgramDescription.length > 1">{{e.ProgramDescription}}</h5>            
             <h6 *ngIf="e.Venue.length > 1" style="margin-top:5px; color:blue">Venue: <span style="color:black">{{e.Venue}}</span> </h6>
             <h6 *ngIf="e.Agenda.length > 0" style="margin-top:5px; color:blue">Event Timeline:</h6>
             <div *ngIf="e.Agenda.length > 0">
@@ -67,6 +67,8 @@
             <h6 *ngIf="e.Fee" style="margin-top:5px;color:blue">Fee: <span style="color:black">{{e.Fee}}</span></h6>
             <h6 *ngIf="e.FeeDetails">{{e.FeeDetails}}</h6>
             <h6 *ngIf="e.FeeLink" style="margin-top:5px;"><a [href]="e.FeeLink"><b>Buy Tickets.</b></a></h6>            
+            <h6 *ngIf="e.Childcarelink.length > 1" style="margin-top:5px;color:blue">Child Care: <a [href]="e.Childcarelink"><b>Child Care Link.</b></a></h6>            
+            <h6 *ngIf="e.Childcarewaiver.length > 1" style="margin-top:5px;color:blue">Waiver Form: <a [href]="e.Childcarewaiver"><b>Child Care Waiver Form.</b></a></h6>            
             <h6 *ngIf="e.FBLink"  style="margin-top:5px;color:blue">Talent Show Entry:<a [href]="e.FBLink">{{e.FBLink}}</a></h6>
             <!--h6 *ngIf="e.FeeLink" style="margin-top:5px;"><a [href]="e.FeeLink">TICKET LINK</a></h6>            
             <h6 *ngIf="e.FBLink"  style="margin-top:5px;"><a [href]="e.FBLink">Facebook Link</a></h6-->
