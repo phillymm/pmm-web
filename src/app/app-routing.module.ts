@@ -17,6 +17,7 @@ import { Bmm2022Component } from './bmm2022/bmm2022.component';
 import { ProgramProposalComponent } from './programproposal/programproposal.component';
 import { RsvpMembersComponent } from './rsvpmembers/rsvpmembers.component';
 import { PastEventsComponent } from './pastEvents/pastEvents.component';
+import { PmmConnectComponent } from './pmmconnect/pmmconnect.component';
 
 export const routes: Routes = [
     {
@@ -44,6 +45,10 @@ export const routes: Routes = [
       path: 'merchandise',
       component: MerchandiseComponent
     },
+	{
+	  path: 'pmmconnect',
+	  component: PmmConnectComponent
+	},
     {
       path: 'newsletter',
       component: NewsletterComponent

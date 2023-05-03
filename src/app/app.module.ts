@@ -25,6 +25,7 @@ import { ProgramProposalComponent } from './programproposal/programproposal.comp
 import { Bmm2022Component } from './bmm2022/bmm2022.component';
 import { RsvpMembersComponent } from './rsvpmembers/rsvpmembers.component';
 import { PastEventsComponent } from './pastEvents/pastEvents.component';
+import { PmmConnectComponent } from './pmmconnect/pmmconnect.component';
 
 
 @NgModule({
@@ -49,7 +50,8 @@ import { PastEventsComponent } from './pastEvents/pastEvents.component';
     SafeurlPipe,
     Bmm2022Component,
     RsvpMembersComponent,
-	PastEventsComponent
+	  PastEventsComponent,
+	  PmmConnectComponent
   ],
   imports: [
     BrowserModule,

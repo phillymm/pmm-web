@@ -30,6 +30,8 @@
           Want to bring a great show to us. Submit your proposal here: <a href="https://goo.gl/forms/i8Q3Rb1xj0PGQmXg2">Program Proposal Submission Form</a>
           <br/>
           To notify us or for any further questions, please contact <a href = "mailto:Secy.PhillyMM@gmail.com">Secy.PhillyMM@gmail.com</a>
+          <br/>
+          Click <a href="/pmmconnect">here </a> for PMM Connect!
         </span>
     </div>
 
@@ -66,7 +68,7 @@
             <h6 *ngIf="e.FeeDetails"><u>Fee Details:</u> <strong>{{e.FeeDetails}}</strong></h6>-->
             <h6 *ngIf="e.Fee" style="margin-top:5px;color:blue">Fee: <span style="color:black">{{e.Fee}}</span></h6>
             <h6 *ngIf="e.FeeDetails">{{e.FeeDetails}}</h6>
-            <h6 *ngIf="e.FeeLink" style="margin-top:5px;"><a [href]="e.FeeLink"><b>Buy Tickets.</b></a></h6>            
+            <h6 *ngIf="e.FeeLink" style="margin-top:5px;"><a [href]="e.FeeLink"><b>Click to Donate.</b></a></h6>            
             <h6 *ngIf="e.Childcarelink.length > 1" style="margin-top:5px;color:blue">Child Care: <a [href]="e.Childcarelink"><b>Child Care Link.</b></a></h6>            
             <h6 *ngIf="e.Childcarewaiver.length > 1" style="margin-top:5px;color:blue">Waiver Form: <a [href]="e.Childcarewaiver"><b>Child Care Waiver Form.</b></a></h6>            
             <h6 *ngIf="e.FBLink"  style="margin-top:5px;color:blue">Talent Show Entry:<a [href]="e.FBLink">{{e.FBLink}}</a></h6>
