@@ -67,10 +67,10 @@
     },
     {
         "Title": "July 2023",
-        "Title2": "PMM Picnic 15th July 2023 03:00 PM Onwards. (Rain Date 22nd July)",
-        "ProgramDescription": "",
+        "Title2": "PMM Picnic 15th July 2023 03:00 PM Onwards. (Rain Or Shine)",
+        "ProgramDescription": "Upon arrival members should check in with Suhas/Shirish - registration team, else no refund  Note: Get your own rain gears if you need.",
         "PointOfContact": "",
-        "RSVPLink": "https://www.paypal.com/donate/?hosted_button_id=LDMN54Y7CJ3DQ",
+        "RSVPLink": "CLOSED",
         "FBLink": "",
         "Fee": "",
         "FeeDetails": "",
@@ -85,7 +85,7 @@
         "SurveyLink": "",
         "ProgramLink": "",
         "EventPhotos": "",
-        "MapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3041.943842126774!2d-75.20751734872603!3d40.321403869253615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6a73267b890f7%3A0xe13cca9c5a8c58af!2sPeace%20Valley%20Park%20Pavilion%203!5e0!3m2!1sen!2sus!4v1677766011974!5m2!1sen!2sus"
+        "MapLink": ""
     },
     {
         "Title": "August 2023",
@@ -109,28 +109,29 @@
         "EventPhotos": "",
         "MapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3049.509844344079!2d-75.27155952344917!3d40.15320077148312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6bc957b4483df%3A0x9a6bfee2c069cf7d!2s650%20W%20Skippack%20Pike%2C%20Blue%20Bell%2C%20PA%2019422!5e0!3m2!1sen!2sus!4v1688562629534!5m2!1sen!2sus"
     },
-    {
-        "Title": "September 2022",
-        "Title2": "Lokrang Part II by Nandesh Umap - 09/03/2022 10:30 AM",
-        "ProgramDescription": "PMM Executive Committee (EC) is very excited to announce the PMM Ganapati Program,  Marathi musical 'लोकरंग - भाग २' presented by Sangeet Natak Awardee, <b>Shri. Nandesh Umap</b><br/><br/><b style='font-color:blue'>Event Timeline:</b><a href='https://forms.gle/HVD7YzyvhdzphSJ89'> (RSVP Link)</a>  / <a href='/membership'>(Membership Payment Link)</a> / <a href='https://www.paypal.com/donate/?hosted_button_id=VN42ZWSAKHQDU'> (Non-members payment link)</a><br/><b>09:00 AM: Ashtagandha Kamandal Mahabhishek<br/>10:30 AM - 12:00 noon: PMM Ganesh Puja & Aarti in upstairs deity hall<br/>11:00 AM - 12:45 PM: Lunch<br/>01:00 pm - 03:00 pm: Lokaranga Part II by Nandesh Umap</b><br/> ",
-        "RSVPLink": "",
+{
+        "Title": "September 2023",
+        "Title2": "PMM Ganpati 23rd Sep 2023 (11:00 AM Onwards) ",
+        "ProgramDescription": "Coming Soon",
+        "PointOfContact": "",
+        "RSVPLink": "Coming Soon",
         "FBLink": "",
         "Fee": "",
         "FeeDetails": "",
         "FeeLink": "",
-        "Childcarelink":"",
-		"Childcarewaiver":"",   
-        "Date": "09/03/2022",
+		"Childcarelink":"",
+		"Childcarewaiver":"",        
+        "Date": "09/23/2023",
         "Agenda": [],
-        "Flyer": "/assets/images/Lokaranga-II-Flyer.png",
+        "Flyer": "",
         "Venue": "Bhartiya Temple, 1612 County Line Rd, Chalfont, PA 18914",
         "Video": "",
         "SurveyLink": "",
         "ProgramLink": "",
         "EventPhotos": "",
         "MapLink": ""
-    },
-	    {
+    },	
+    {
         "Title": "December 2022",
         "Title2": "PMM Diwali 2022 - Saturday, 12/03/2022 4:00 PM",
         "ProgramDescription": "",
