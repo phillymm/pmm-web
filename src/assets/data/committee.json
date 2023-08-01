@@ -6,25 +6,25 @@
         "Members" : [
             {
                 "role": "President",
-                "person": "Asheesh Nadkarni",
+                "person": "Sachin Prabhudesai",
                 "email": "President@phillymm.org",
                 "picture":""
             },
             {
                 "role": "Vice President",
-                "person": "Sachin Prabhudesai",
+                "person": "Suchitra Shinde",
                 "email": "VicePresident.PhillyMM@gmail.com",
                 "picture":""
             },
             {
                 "role": "Secretary",
-                "person": "Aniruddha Railkar",
+                "person": "Manish Kurhekar",
                 "email": "Secy.PhillyMM@gmail.com",
                 "picture":""
             },
             {
                 "role": "Associate Secretary",
-                "person": "Manish Kurhekar",
+                "person": "Geeta Shelukar",
                 "email": "",
                 "picture":""
             },
@@ -36,25 +36,25 @@
             },
             {
                 "role": "Associate Treasurer",
-                "person": "Harshada Pendharkar",
+                "person": "Prachee Kale Awalgaonkar",
                 "email": "",
                 "picture":""
             },
             {
                 "role": "PMM IT",
-                "person": "Abhijit Shrikhande, Milind Date",
+                "person": "Chaitanya Bhasme",
                 "email": "",
                 "picture":""
             },
             {
-                "role":"BMM Liason",
-                "person":"Sheetal Pawar",
+                "role":"BMM Liaison",
+                "person":"Shilpa Nagale",
                 "email":"",
                 "picture":""
             },
             {
                 "role": "EC Members",
-                "person": "Arpana Date, Aarti Prabhudesai, Geeta Shelukar, Ojaswinee Jog, Shilpa Nagale, Shirish Joglekar, Trupti Kamat, Vrushali Inamdar, Yogesh Date, Seema Nawathe, Suchitra Shinde",
+                "person": "Aarti Khatkhate, Adwait Palsule, Amprapali Deshpande, Girish Kurwalkar, Leena Nashikkar, Monica Deshpande, Ojaswinee Jog, Seema Nawathe, Shirish Joglekar, Shrikant Mankar, Yogesh Date",
                 "email": "",
                 "picture":"assets/images/Outreach-collage.png"
             }
@@ -65,17 +65,20 @@
         "Email": "pmm-trustees@googlegrooups.com",
         "Members" : [
             {
-                "person":"Shubhra Vedanti"   
+                "person": "Asheesh Nadkarni"
             },
             {
-                "person":"Komal Date"   
+                "person": "Komal Date"
             },
             {
-                "person":"Vivek Inamdar"   
+                "person":"Shubhra Vedanti"
+            },
+            {
+                "person":"Vivek Inamdar"
             },
             {
                 "person":"Yogesh Dahale"
-            }    
+            }
         ]
     }
 ]
