@@ -47,14 +47,14 @@
                 "picture":""
             },
             {
-                "role":"BMM Liason",
-                "person":"Shilpa Nagle",
+                "role":"BMM Liaison",
+                "person":"Shilpa Nagale",
                 "email":"",
                 "picture":""
             },
             {
                 "role": "EC Members",
-                "person": "Shrikant Mankar, Ojas Jog, Adwait Palsule, Amrapali Deshpande, Girish Kurwalkar, Leena Nashikkar, Monica Deshpande, Shirish Joglekar, Yogesh Date, Seema Nawathe",
+                "person": "Aarti Khatkhate, Adwait Palsule, Amprapali Deshpande, Girish Kurwalkar, Leena Nashikkar, Monica Deshpande, Ojaswinee Jog, Seema Nawathe, Shirish Joglekar, Shrikant Mankar, Yogesh Date",
                 "email": "",
                 "picture":"assets/images/Outreach-collage.png"
             }
@@ -65,21 +65,20 @@
         "Email": "pmm-trustees@googlegrooups.com",
         "Members" : [
             {
-                "person":"Shubhra Vedanti"   
+                "person": "Asheesh Nadkarni"
             },
             {
-                "person":"Komal Date"   
+                "person": "Komal Date"
             },
             {
-                "person":"Vivek Inamdar"   
+                "person":"Shubhra Vedanti"
+            },
+            {
+                "person":"Vivek Inamdar"
             },
             {
                 "person":"Yogesh Dahale"
-            },
-            {
-                "person":"Asheesh Nadkarni"
-            }    
-     
+            }
         ]
     }
 ]
