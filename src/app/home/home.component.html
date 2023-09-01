@@ -73,7 +73,8 @@
                 <span class="" style="color:black">&nbsp; {{ea.Event}}</span>
               </div>
             </div>
-            <h6 *ngIf="e.RSVPLink" style="margin-top:5px; color:blue">RSVP Link:<a [href]="e.RSVPLink">{{e.RSVPLink}}</a></h6>            
+            <h6 *ngIf="e.RSVPLink" style="margin-top:5px; color:blue">RSVP Link: <a [href]="e.RSVPLink">{{e.RSVPLink}}</a></h6>
+            <h6 *ngIf="e.ModakSignUpLink" style="margin-top:5px; color:blue">Modak Naivedya Signup Link: <a [href]="e.ModakSignUpLink">{{e.ModakSignUpLink}}</a></h6>
             <h6 *ngIf="e.PointOfContact.length > 1" style="margin-top:5px; color:blue">Point Of Contact: <span style="color:black" [innerHTML]="e.PointOfContact">{{e.PointOfContact}}</span></h6>                        
             <h6 *ngIf="e.ProgramLink.length > 1" style="margin-top:5px;">
               Program Link : <a [href]="e.ProgramLink">{{e.ProgramLink}}</a>

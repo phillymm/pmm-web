@@ -111,10 +111,11 @@
     },
 {
         "Title": "September 2023",
-        "Title2": "PMM Ganpati 23rd Sep 2023 (11:00 AM Onwards) ",
-        "ProgramDescription": "",
+        "Title2": "PMM Ganapati 23rd Sep 2023 (11:00 AM Onwards)",
+        "ProgramDescription": "A Marathi Musical Program by 'Aditya Ranade and team'",
         "PointOfContact": "",
-        "RSVPLink": "Coming Soon",
+        "RSVPLink": "https://www.tugoz.com/events/PhillyMM/pmm-ganapati-2023",
+        "ModakSignUpLink": "https://tinyurl.com/pmmmodaknaivedya",
         "FBLink": "",
         "Fee": "",
         "FeeDetails": "",
@@ -122,7 +123,24 @@
 		"Childcarelink":"",
 		"Childcarewaiver":"",
         "Date": "09/23/2023",
-        "Agenda": [],
+        "Agenda": [
+            {
+                "Time": "11.00 AM",
+                "Event": "Registration"
+            },
+            {
+                "Time": "11.45 AM",
+                "Event": "Puja & Aarti"
+            },
+            {
+                "Time": "12.30 PM",
+                "Event": "Lunch"
+            },
+            {
+                "Time": "2.00 PM",
+                "Event": "Marathi Musical Program 'Swaraanjali'"
+            }
+        ],
         "Flyer": "/assets/images/PMM_ganapati_2023_v2.jpeg",
         "Venue": "Bhartiya Temple, 1612 County Line Rd, Chalfont, PA 18914",
         "Video": "",
