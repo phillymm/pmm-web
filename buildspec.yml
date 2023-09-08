@@ -3,5 +3,5 @@ phases:
     install:
         commands:
         - npm install
-        - npm build --prod
+        - npm run build
         - aws s3 sync dist s3://phillymmtest --delete
