@@ -109,7 +109,7 @@
         "EventPhotos": "",
         "MapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3049.509844344079!2d-75.27155952344917!3d40.15320077148312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6bc957b4483df%3A0x9a6bfee2c069cf7d!2s650%20W%20Skippack%20Pike%2C%20Blue%20Bell%2C%20PA%2019422!5e0!3m2!1sen!2sus!4v1688562629534!5m2!1sen!2sus"
     },
-{
+    {
         "Title": "September 2023",
         "Title2": "PMM Ganapati 23rd Sep 2023 (11:00 AM Onwards)",
         "ProgramDescription": "A Marathi Musical Program by 'Aditya Ranade and team'",
@@ -148,7 +148,69 @@
         "ProgramLink": "",
         "EventPhotos": "",
         "MapLink": ""
-    },	
+    },
+    {
+        "Title": "November 2023",
+        "Title2": "PMM Diwali - Saturday, 4th Nov 2023 (02:00 PM Onwards)",
+        "ProgramDescription": "DIWALI DHAMAKA in presence of a Bollywood star OMI VAIDYA",
+        "PointOfContact": "",
+        "RSVPLink": "https://www.tugoz.com/events/PhillyMM/diwali2023",
+        "FBLink": "",
+        "Fee": "",
+        "FeeDetails": "",
+        "FeeLink": "",
+        "Childcarelink": "",
+        "Childcarewaiver": "",
+        "Date": "11/04/2023",
+        "Agenda": [
+            {
+                "Time": "2.00 PM",
+                "Event": "Registration & Tea"
+            },
+            {
+                "Time": "3.00 PM",
+                "Event": "Marathi Movie Screening - \"Aaichya Gavaat Marathi Bol\""
+            },
+            {
+                "Time": "5.30 PM",
+                "Event": "A Stand Up Comedy Show by \"Omi Vaidya\""
+            },
+            {
+                "Time": "6.30 PM",
+                "Event": "Dinner"
+            }
+        ],
+        "Flyer": "/assets/images/pmm2023-diwali_v1.jpeg",
+        "Venue": "Upper Merion Area Middle School, 450 Keebler Road, King Of Prussia, PA-19406",
+        "Video": "",
+        "SurveyLink": "",
+        "ProgramLink": "",
+        "EventPhotos": "",
+        "MapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3051.9264898700353!2d-75.38461662259313!3d40.09935187149243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c695c98c8b6ecb%3A0x39bf832b93df7e5a!2sUpper%20Merion%20Area%20Middle%20School!5e0!3m2!1sen!2sus!4v1695676646138!5m2!1sen!2sus"
+    },
+    {
+        "Title": "January 2024",
+        "Title2": "PMM Makar Sankrant - Saturday, 20th Jan 2024",
+        "ProgramDescription": "Game Night (details coming soon)",
+        "PointOfContact": "",
+        "RSVPLink": "TBD",
+        "FBLink": "",
+        "Fee": "",
+        "FeeDetails": "",
+        "FeeLink": "",
+        "Childcarelink": "",
+        "Childcarewaiver": "",
+        "Date": "01/20/2024",
+        "Agenda": [
+        ],
+        "Flyer": "",
+        "Venue": "Bhartiya Temple, 1612 County Line Rd, Chalfont, PA 18914",
+        "Video": "",
+        "SurveyLink": "",
+        "ProgramLink": "",
+        "EventPhotos": "",
+        "MapLink": ""
+    },
     {
         "Title": "December 2022",
         "Title2": "PMM Diwali 2022 - Saturday, 12/03/2022 4:00 PM",
