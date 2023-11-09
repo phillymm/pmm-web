@@ -18,8 +18,13 @@ export class PastEventsComponent implements OnInit {
     this.googledriveService.getEvents()
     .subscribe(res => {
       const pastMatches = res.filter(f => this.compareDate(f.Date, new Date()) < 0);
+      // Sort pastMatches by date
+      pastMatches.sort((a, b) => {
+        let dateA = new Date(a.Date).getTime();
+        let dateB = new Date(b.Date).getTime();
+        return dateB - dateA; // For descending order
+      });
       this.pmmPastEvent2 = pastMatches;
-      console.log('asa');
       console.log('pmmPastEvents variable');
       console.log(this.pmmPastEvent2);
       console.log('pmmPastEvents variable length');
