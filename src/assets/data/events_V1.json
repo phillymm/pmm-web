@@ -256,10 +256,10 @@
     },
     {
         "Title": "January 2024",
-        "Title2": "PMM Makar Sankrant - Saturday, 20th Jan 2024",
-        "ProgramDescription": "Game Night (details coming soon)",
+        "Title2": "PMM Sankrant and Game Night - Saturday, 20th Jan 2024 (4.30PM onwards)",
+        "ProgramDescription": "",
         "PointOfContact": "",
-        "RSVPLink": "TBD",
+        "RSVPLink": "http://tugoz.com/pmmsankrant2024",
         "FBLink": "",
         "Fee": "",
         "FeeDetails": "",
@@ -268,8 +268,20 @@
         "Childcarewaiver": "",
         "Date": "01/20/2024",
         "Agenda": [
+            {
+                "Time": "4:30 PM - 6:00 PM",
+                "Event": "Registration & Haldi Kunku"
+            },
+            {
+                "Time": "5:00 PM - 8:00 PM",
+                "Event": "Exciting Games for Kids & Adults"
+            },
+            {
+                "Time": "8:00 PM",
+                "Event": "Dinner"
+            }
         ],
-        "Flyer": "",
+        "Flyer": "/assets/images/PMM_Sankrant_2024_flyer.jpg",
         "Venue": "Bhartiya Temple, 1612 County Line Rd, Chalfont, PA 18914",
         "Video": "",
         "SurveyLink": "",
