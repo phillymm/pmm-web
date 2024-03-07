@@ -290,46 +290,44 @@
         "MapLink": ""
     },
     {
-        "Title": "December 2022",
-        "Title2": "PMM Diwali 2022 - Saturday, 12/03/2022 4:00 PM",
-        "ProgramDescription": "",
+        "Title": "March 2024",
+        "Title2": "PMM-Yaari 'If Taylor Swift met Monet!' - Sunday, 10th March 2024 (4PM - 6PM)",
+        "ProgramDescription": "Tap the artist in you... as our young artists play some mesmerizing music.",
         "PointOfContact": "",
-        "RSVPLink": "",
+        "RSVPLink": "http://tinyurl.com/PMMYaariFirstEvent",
         "FBLink": "",
-        "Fee": "",
-        "FeeDetails": "",
+        "Fee": "Free",
+        "FeeDetails": "No Entry Fee. RSVP by Wednesday, 6th March 2024. Be ready for a fun quiz and exciting prizes!!",
         "FeeLink": "",
-        "Childcarelink":"",
-		"Childcarewaiver":"",   
-        "Date": "12/03/2022",
+        "Childcarelink": "",
+        "Childcarewaiver": "",
+        "Date": "03/10/2024",
         "Agenda": [
-            {
-                "Time": "4:00 PM",
-                "Event": "Arrival and Registration"
-            },
-            {
-                "Time": "4:00 PM - 4:45 PM",
-                "Event": " Tea, Snacks & activities/competition"
-            },
-            {
-                "Time": "4:45 PM - 5:30 PM",
-                "Event": "“Purushaarth”"
-            },
-            {
-                "Time": "5:30 PM - 6:00 PM",
-                "Event": "Contest winner announcement and a surprise item"
-            },
-            {
-                "Time": "6:00 PM - 6:45 PM",
-                "Event": "“Kaalay Tasmeih Namah”"
-            },
-            {
-                "Time": "7:00 PM",
-                "Event": "Dinner"
-            }
         ],
-        "Flyer": "/assets/images/PMM-2022 Diwali Event Flyer.png",
-        "Venue": "Bhartiya Temple, 1612 County Line Rd, Chalfont, PA 18914",
+        "Flyer": "/assets/images/PMM_Yaari_2024.jpeg",
+        "Venue": "801 Springdale Dr, Exton, PA 19341",
+        "Video": "",
+        "SurveyLink": "",
+        "ProgramLink": "",
+        "EventPhotos": "",
+        "MapLink": ""
+    },
+    {
+        "Title": "March 2024",
+        "Title2": "PMM-Movie Club 'Shivrayancha Chhava' - Sunday, 17th March 2024 (9AM - 12PM)",
+        "ProgramDescription": "On popular demand, PMM-Movie Club brings another marathi movie ‘Shivrayancha Chhava’ in theater.",
+        "PointOfContact": "",
+        "RSVPLink": "http://tinyurl.com/PMMShivrayanchaChhava",
+        "FBLink": "",
+        "Fee": "$17 per person",
+        "FeeDetails": "We encourage everyone to purchase tickets by March 12th to get appropriate size theater assignment. Please bring PayPal payment receipt email as a ticket booking confirmation at the time of screening. No assigned seating. Please plan to arrive at 8:45 AM (allow yourself extra time for parking).",
+        "FeeLink": "",
+        "Childcarelink": "",
+        "Childcarewaiver": "",
+        "Date": "03/17/2024",
+        "Agenda": [],
+        "Flyer": "/assets/images/PMM_movie_chhava_2024.jpeg",
+        "Venue": "108 E Butler Ave, Ambler, PA 19002",
         "Video": "",
         "SurveyLink": "",
         "ProgramLink": "",
